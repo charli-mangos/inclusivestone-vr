@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - MoveArea
+  - Pantalla
+  - Mastil
+  - UI
+  - RotationLimit
+  - CraneCorp
+  - CraneEngine
+  - Gancho
+  - Target
+  - Floor
+  - Goal
+  - Goal 2
+  - Amarre
+  - Wall
+  - Tabla
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - MoveArea
+  - Water
+  - UI
+  - Grab
+  - Body
+  - Target
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

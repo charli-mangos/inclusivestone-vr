@@ -1,0 +1,151 @@
+//MAIN MENU
+lang=Selecciona un lenguaje:
+selected_lang=Lenguaje seleccionado:
+menu=Menu principal
+
+//Buttons
+continue=Continuar
+start=Empezar
+
+//General
+congrats=¡Enhorabuena!
+completed=Has completado la misión con éxito
+go_menu=Volver al menú inicial de selección de escenas
+controls=Controles
+try_again=Intentar de nuevo
+fail_mission=Esa no es la respuesta correcta
+follow_steps=Para ello, sigue los pasos que aparecerán en los paneles
+
+//Locomotion tutorial
+locomotion=Teletransporte
+locomotion_desc=Pulsa el botón A o X para teletransportarte hasta el punto iluminado. 
+
+------------------------------------------------------------------------
+
+
+//FORKLIFT
+//Title and description
+fork=Operario de carretilla elevadora
+fork_desc=En esta sección los usuarios aprenderán de manera práctica y segura cómo operar una carretilla elevadora en la industria de la piedra. Con retroalimentación en tiempo real, esta sección busca mejorar las habilidades y conocimientos de los operadores, contribuyendo a un manejo más eficiente y seguro de materiales pesados en el sector de la piedra.
+
+//Intro
+fork_intro1=Bienvenido a la práctica de operario de carretilla elevadora.
+fork_intro2=Esta experiencia incluye desafíos como cargar y descargar materiales de piedra, maniobrar en espacios estrechos y apilar cargas pesadas. 
+
+//Mission 1
+fork_mis1=Transporte de cargas
+fork_mis1_info1=El objetivo de esta misión es llevar 3 pallets desde la planta de transformación hasta el almacen.
+fork_mis1_info2=En el almacen, tendrás que ordenar los pallets dentro de la zona iluminada.
+
+//Mission 2
+fork_mis2=Carga de camiones
+fork_mis2_info1=El objetivo de esta misión es llevar 3 pallets desde el almacen hasta el interior del camión, para su posterior transporte.
+
+//Tutorial
+fork_tuto1=Acelerar
+fork_tuto1_info1=Pulsa el gatillo de disparo (dedo índice) de la mano derecha para acelerar la carretilla 
+fork_tuto1_info2=Recuerda las normas de seguridad sobre circulación en el entorno de trabajo para evitar accidentes
+fork_tuto2=Marcha atrás
+fork_tuto2_info1=Pulsa el gatillo de disparo (dedo índice) de la mano izquierda para realizar la marcha atrás
+fork_tuto3=Frenar
+fork_tuto3_info1=Pulsa el botón principal (A o X) con el dedo pulgar para frenar la carretilla elevadora
+fork_tuto4=Girar
+fork_tuto4_info1=Mueve el joystick de la mano izquierda de manera lateral para girar la carretilla
+fork_tuto4_info2=Acelera para comprobar el giro
+fork_tuto5=Control del elevador
+fork_tuto5_info1=Acerca la mano a alguna de las palancas de abajo a la derecha y pulsa el botón de Grip (dedo corazón) para agarrar la palanca
+fork_tuto5_info2=Mientras agarras una de las palancas, mueve el joystick de la mano izquierda de arriba a abajo para mover la pantalla de elevación. 
+fork_tuto6_info1=Has conseguido trasladar un pallet
+fork_tuto6_info2=Ahora, repite el mismo proceso para 2 más
+------------------------------------------------------------------------------------
+
+
+//SITUATION 2
+//Title and description
+crane=Operario de puente grúa
+crane_desc=Esta sección ofrece a los usuarios una experiencia de aprendizaje práctica y segura sobre la operación del puente grúa en la industria de la piedra. La retroalimentación en tiempo real les permitirá mejorar sus habilidades y conocimientos como operadores, promoviendo un manejo más eficiente y seguro de materiales pesados en este sector específico.
+
+//Intro
+crane_intro1=Bienvenido a la práctica de operario de grúa
+crane_intro2=En este entrenamiento, los usuarios enfrentarán desafíos que implican cargar y descargar materiales pesados, maniobrar con precisión en espacios reducidos y apilar cargas voluminosas utilizando el puente grúa.
+
+//Mission
+crane_mis1=Transporte de tablas
+crane_mis1_desc=El objetivo de esta misión es desplazar 3 grupos de tablas hasta alguno de los soportes iluminados en el fondo del almacén.
+
+
+//Controls
+crane_gatillo_drcha=Pulsar botón
+crane_gatillo_izq=Pulsar botón
+crane_grip=Agarrar tabla
+weight=Peso: 
+
+crane_quest=Observa el peso de las tablas que se van a manipular, ¿que eslinga es la más indicada?
+crane_bajo=Bajo
+crane_medio=Medio
+crane_alto=Alto
+
+crane_block=Bloquea la máquina
+crane_blocked=Máquina bloqueada
+crane_start=Activa la máquina
+crane_up=Sube el gancho
+crane_down=Baja el gancho
+crane_north=Mueve el motor hacia alante
+crane_south=Mueve el motor hacia atrás
+crane_east=Mueve el motor hacia la derecha
+crane_west=Mueve el motor hacia la izquierda
+
+//Tutorial
+crane_tuto1=Acércate a alguna de las tablas mediante la herramienta de teletransporte. 
+crane_control=Manejo del puente grúa
+crane_tuto2=Utiliza el mando del puente grúa para acercar el gancho hacia la tabla que vayas a desplazar. 
+crane_tuto2_1=Pasa por encima de los botones con el cursor para ver que funcion tiene cada uno.
+crane_control2=Amarra los tablones con las eslingas
+crane_tuto3=Para realizar el eslingado pulsa el botón de Grip (gatillo del dedo corazón) del mando derecho. 
+crane_tuto3_1=Es importante tener en cuenta las normas de seguridad con respecto al eslingado y la circulación en zonas donde ocurren elevaciones de cargas. 
+crane_tuto_fin=Has conseguido colocar un grupo de tablas. 
+crane_repeat=Ahora, repite el mismo proceso para 2 grupos más.
+----------------------------------------------------------------------------------------------
+
+
+//SITUATION 3
+//Title and description
+clean=Operario de limpieza y gestión de residuos
+clean_desc= Consiste en una serie de simulaciones prácticas que permitirán a los usuarios perfeccionar sus técnicas y procesos, asegurando un entorno de trabajo más limpio y seguro, al tiempo que contribuyen a la reducción del impacto ambiental de la fábrica de piedra natural.
+
+
+//Intro
+clean_intro1=Bienvenido a la práctica de operario de limpieza.
+clean_intro2=En esta sección los usuarios aprenderán los conceptos clave, como la identificación de áreas prioritarias de limpieza, la selección de productos y equipos de limpieza adecuados, así como las pautas para el manejo de residuos de manera segura y sostenible.
+
+//Mission 1 Recogida de residuos
+//Mission 2 Ordenar los productos quimicos
+//Mission 3 Gestión de residuos
+clean_mis1=Limpieza y gestión de residuos
+clean_mis1_desc1=El objetivo de este entrenamiento es realizar las tareas de limpieza de manera correcta
+
+----------------------------------------------------------------------------------------------
+
+
+//SITUATION 4
+//Title and description
+cnc=Operario de CNC
+cnc_desc=Esta sección permitirá perfeccionar las habilidades y procesos de los usuarios, asegurando una operación eficiente y segura de las máquinas CNC, lo que a su vez garantiza la calidad y productividad en la producción de piedra natural.
+
+//Intro
+cnc_intro1=Bienvenido a la práctica de operario de CNC.
+cnc_intro2=Este entrenamiento abordará aspectos críticos de la seguridad en la operación de máquinas CNC, incluyendo el control de riesgos y el mantenimiento preventivo
+
+
+-----------------------------------------------------------------------------------------
+
+
+//SITUATION 5
+//Title and description
+finish=****Nanomaterial fijado en una matriz sólida que se perfora
+finish_desc=****En esta escena, el trabajo consiste en preparar un entorno de construcción para perforar la superficie de piedra revestida con el fin de colocar el cableado eléctrico de las luminarias exteriores.  Centrados en la prevención de riesgos derivados de la generación de nanomateriales.
+
+//Intro
+finish_intro1=Bienvenido a la SITUACIÓN 5.
+finish_intro2=****Nanomaterial fijado en una matriz sólida que se perfora.
+

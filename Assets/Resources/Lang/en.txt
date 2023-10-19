@@ -1,0 +1,98 @@
+//MAIN MENU
+lang=Selecciona un lenguaje:
+selected_lang=Lenguaje seleccionado:
+menu_tittle=Menu principal
+
+//Buttons
+continue=Continuar
+start=Empezar
+
+//General
+congrats=¡Enhorabuena!
+completed=Has completado la misión con éxito.
+go_menu=Volver al menú inicial de selección de escenas.
+
+//Init Info
+intro1=Intenta realizar los pasos con seguridad.
+intro2=Tienes que completar algunas misiones.
+intro3=Para encontrarlas necesitas buscar la siguiente señal:
+intro4=Para moverte por el escenario usa la herramienta de teletransporte. 
+intro5=Esta se activa con el botón principal (A or X).
+
+------------------------------------------------------------------------
+
+
+//FORKLIFT
+//Title and description
+fork=****Uso de sierra con refrigeración por agua para reducir el polvo 
+fork_desc=****En esta situación se va a pavimentar una zona de una casa. Para ello, se va a utilizar una sierra refrigerada por agua para reducir el polvo. El jugador debe realizar los pasos necesarios para utilizar esta herramienta con seguridad.
+
+//Intro
+fork_intro1=Bienvenido a la práctica de operario de carretilla.
+fork_intro2=****Uso de sierra con refrigeración por agua para reducir el polvo 
+
+//Mission 1
+fork_mis1=Transporte de cargas
+fork_mis1_desc=En esta misón debes llevar cajas desde la zona de acabados al almacen.
+fork_mis1_info1=El objetivo de esta misión es llevar 3 pallets de esta zona al almacen del producto.
+fork_mis1_info2=En el almacen, tendrás que ordenar los pallets dentro de la zona iluminada.
+fork_mis1_fin1=Has conseguido finalizar la misión.
+
+//Mission 2
+fork_mis2=Carga de comiones
+fork_mis2_desc=En esta misón debes introducir el producto en los camiones.
+
+------------------------------------------------------------------------------------
+
+
+//SITUATION 2
+//Title and description
+crane=****Aplicación en función del nanoproducto en una fábrica
+crane_desc=****En esta situación, se aplicarán diferentes productos a la piedra natural en la fábrica. Deben tomarse las medidas correctas para evitar poner en peligro el producto y nuestra salud.
+
+//Intro
+crane_intro1=Bienvenido a la práctica de operario de grúa.
+crane_intro2=****Aplicación en función del nanoproducto en una fábrica
+
+
+
+----------------------------------------------------------------------------------------------
+
+
+//SITUATION 3
+//Title and description
+clean=****Vertido de polvo de nanomaterial en una matriz líquida para crear una mezcla
+clean_desc=****En esta situación, el usuario tendrá que hacer una mezcla de polvo en una matriz líquida para aplicarla en un entorno de construcción.
+
+//Intro
+clean_intro1=Bienvenido a la práctica de operario de limpieza.
+clean_intro2=****Vertido de polvo de nanomaterial en una matriz líquida para crear una mezcla.
+
+
+
+----------------------------------------------------------------------------------------------
+
+
+//SITUATION 4
+//Title and description
+cnc=****Nanomaterial aplicado con pistola pulverizadora sobre una superficie de piedra natural
+cnc_desc=****Se trata de preparar una zona de trabajo al aire libre donde se aplicarán los nanomateriales a las superficies de piedra con una pistola pulverizadora. La aplicación tendrá lugar en una piscina y las condiciones ambientales no serán óptimas.
+
+//Intro
+cnc_intro1=Bienvenido a la práctica de operario de cnc.
+cnc_intro2=****Prepare una zona de trabajo al aire libre donde se aplicarán los nanomateriales a las superficies de piedra con una pistola pulverizadora.
+
+
+
+-----------------------------------------------------------------------------------------
+
+
+//SITUATION 5
+//Title and description
+finish=****Nanomaterial fijado en una matriz sólida que se perfora
+finish_desc=****En esta escena, el trabajo consiste en preparar un entorno de construcción para perforar la superficie de piedra revestida con el fin de colocar el cableado eléctrico de las luminarias exteriores.  Centrados en la prevención de riesgos derivados de la generación de nanomateriales.
+
+//Intro
+finish_intro1=Bienvenido a la SITUACIÓN 5.
+finish_intro2=****Nanomaterial fijado en una matriz sólida que se perfora.
+
