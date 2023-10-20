@@ -60,7 +60,7 @@ fork_tuto6_info2=Ahora, repite el mismo proceso para 2 más
 ------------------------------------------------------------------------------------
 
 
-//SITUATION 2
+//CRANE
 //Title and description
 crane=Operario de puente grúa
 crane_desc=Esta sección ofrece a los usuarios una experiencia de aprendizaje práctica y segura sobre la operación del puente grúa en la industria de la piedra. La retroalimentación en tiempo real les permitirá mejorar sus habilidades y conocimientos como operadores, promoviendo un manejo más eficiente y seguro de materiales pesados en este sector específico.
@@ -108,7 +108,7 @@ crane_repeat=Ahora, repite el mismo proceso para 2 grupos más.
 ----------------------------------------------------------------------------------------------
 
 
-//SITUATION 3
+//CLEAN
 //Title and description
 clean=Operario de limpieza y gestión de residuos
 clean_desc= Consiste en una serie de simulaciones prácticas que permitirán a los usuarios perfeccionar sus técnicas y procesos, asegurando un entorno de trabajo más limpio y seguro, al tiempo que contribuyen a la reducción del impacto ambiental de la fábrica de piedra natural.
@@ -121,9 +121,13 @@ clean_intro2=En esta sección los usuarios aprenderán los conceptos clave, como
 //Mission 1 Recogida de residuos
 //Mission 2 Ordenar los productos quimicos
 //Mission 3 Gestión de residuos
-clean_mis1=Limpieza y gestión de residuos
-clean_mis1_desc1=El objetivo de este entrenamiento es realizar las tareas de limpieza de manera correcta
+clean_mis1=Limpieza del espacio de trabajo
+clean_mis1_info1=El objetivo de este entrenamiento es realizar las tareas de limpieza de la fábrica de manera correcta 
 
+clean_mis2=Gestión de residuos
+clean_mis2_info1=El objetivo de este entrenamiento es desechar los residuos de manera correcta
+
+clean_tuto1=Acércate al armario de limpieza para recoger los productos y objetos necesarios.
 ----------------------------------------------------------------------------------------------
 
 
