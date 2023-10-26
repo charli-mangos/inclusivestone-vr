@@ -27,7 +27,7 @@ public class LimitRebound : MonoBehaviour
         {
             Rigidbody rb = col.rigidbody;
 
-            rb.AddExplosionForce(bounceForce, col.contacts[0].point, 50);
+            rb.AddExplosionForce(bounceForce, col.contacts[0].point, 0.01f);
 
             /*if (Physics.Raycast(rb.position, rb.velocity, out RaycastHit hit, rb.velocity.magnitude))//cast the ray 100 units at the specified direction
             {

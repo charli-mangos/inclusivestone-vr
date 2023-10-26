@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class SlideController : MonoBehaviour
 {
@@ -140,7 +141,7 @@ public class SlideController : MonoBehaviour
             currentSlide.startButton.gameObject.SetActive(true);
         }
 
-        if(changeScene != null && currentSlide.tittle == "menu")
+        if(changeScene != null && (currentSlide.tittle == "menu" || SceneManager.GetActiveScene().name == "Main Menu"))
         {
             currentSlide.startButton.onClick.AddListener(delegate { changeScene.change(currentSlide.action); });
         }

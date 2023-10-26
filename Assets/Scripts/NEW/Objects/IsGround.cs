@@ -10,8 +10,9 @@ public class IsGround : MonoBehaviour
 
     public bool isObstacle = true;
 
+    public Instructions tutorialPanel;
+    public GameObject nextInstructionTutorial;
 
-    void Start() { }
 
     void OnTriggerEnter(Collider col)
     {
@@ -24,6 +25,15 @@ public class IsGround : MonoBehaviour
             FixedJoint joint = transform.GetComponent<FixedJoint>();
             if (joint) Destroy(joint);
         }
+
+        if (col.gameObject.tag == "Pantalla") 
+        {
+            if(tutorialPanel != null && tutorialPanel.GetCountOfUnanswered() > 0 && tutorialPanel.GetNextInstructionName() == nextInstructionTutorial.name)
+            {
+                Invoke("setNextTutorial", 2f);
+            }
+
+        }
     }
 
     void OnTriggerExit(Collider col)
@@ -35,5 +45,10 @@ public class IsGround : MonoBehaviour
             if(isObstacle) newOBS = this.gameObject.AddComponent<ObstacleCrash>();
         }
 
+    }
+
+    void setNextTutorial()
+    {
+        tutorialPanel.setNextInstructions();
     }
 }

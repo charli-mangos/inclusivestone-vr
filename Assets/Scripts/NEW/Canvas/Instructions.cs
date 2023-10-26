@@ -34,6 +34,11 @@ public class Instructions : MonoBehaviour
         return currentInst.panel.name;
     }
 
+    public string GetNextInstructionName()
+    {
+        return unanswered[0].panel.name;
+    }
+
 
     public void setNextInstructions()
     {

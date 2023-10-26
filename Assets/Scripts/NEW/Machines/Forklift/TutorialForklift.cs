@@ -54,10 +54,17 @@ public class TutorialForklift : MonoBehaviour
 
                     if (hand.isRight == "right")
                     {
-                        if ((currentIns == "Acelerar" && hand.trigVal > 0.5) || (currentIns == "Cotrol Elevator 1" && hand.gripValue > 0.5) || (currentIns == "Cotrol Elevator 2" && hand.gripValue > 0.5 && hand.axisVal.y != 0))
+                        if ((currentIns == "Acelerar" && hand.trigVal > 0.5) || (currentIns == "Cotrol Elevator 1" && hand.gripValue > 0.5))
                         {
                             completedPanels.Add(currentIns);
                             Invoke("HidePanel", 2f);
+                            break;
+                        }
+
+                        if(currentIns == "Cotrol Elevator 2" && hand.gripValue > 0.5 && hand.axisVal.y != 0)
+                        {
+                            completedPanels.Add(currentIns);
+                            Invoke("FinishTutorial", 2f);
                             break;
                         }
                     }

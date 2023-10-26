@@ -42,8 +42,9 @@ public class GoalZone : MonoBehaviour
 
     void OnTriggerEnter(Collider col)
     {
-        if (col.gameObject.tag == "Target" && uncompletedTargets.Contains(col.gameObject) && gameController.getCurrentMission() == mission)
+        if (col.gameObject.tag == "Target" && uncompletedTargets.Contains(col.gameObject) && col.GetComponent<HingeJoint>() == null && col.GetComponent<FixedJoint>() == null && gameController.getCurrentMission() == mission)
         {
+            Debug.Log("Entordsf asd");
             uncompletedTargets.Remove(col.gameObject);
             numOfGoals += 1;
 
@@ -55,7 +56,7 @@ public class GoalZone : MonoBehaviour
 
                 Destroy(this);
             }
-            else if (tutorialPanel != null && tutorialPanel.GetCountOfUnanswered() > 0 && col.GetComponent<FixedJoint>() == null)
+            else if (tutorialPanel != null && tutorialPanel.GetCountOfUnanswered() > 0)
             {
                 tutorialPanel.setNextInstructions();
             }
@@ -71,4 +72,5 @@ public class GoalZone : MonoBehaviour
         }
 
     }
+
 }
