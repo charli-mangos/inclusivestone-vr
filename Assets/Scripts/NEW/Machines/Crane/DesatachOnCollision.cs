@@ -17,6 +17,7 @@ public class DesatachOnCollision : MonoBehaviour
                 Destroy(joint);
                 joint = null;
 
+                this.transform.Find("Amarrado").gameObject.SetActive(false);
             }
         }
     }

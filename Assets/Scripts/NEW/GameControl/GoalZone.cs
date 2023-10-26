@@ -44,7 +44,6 @@ public class GoalZone : MonoBehaviour
     {
         if (col.gameObject.tag == "Target" && uncompletedTargets.Contains(col.gameObject) && col.GetComponent<HingeJoint>() == null && col.GetComponent<FixedJoint>() == null && gameController.getCurrentMission() == mission)
         {
-            Debug.Log("Entordsf asd");
             uncompletedTargets.Remove(col.gameObject);
             numOfGoals += 1;
 

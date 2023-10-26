@@ -71,13 +71,7 @@ crane_intro2=En este entrenamiento, los usuarios enfrentarán desafíos que impl
 
 //Mission
 crane_mis1=Transporte de tablas
-crane_mis1_desc=El objetivo de esta misión es desplazar 3 grupos de tablas hasta alguno de los soportes iluminados en el fondo del almacén.
-
-
-//Controls
-crane_gatillo_drcha=Pulsar botón
-crane_gatillo_izq=Pulsar botón
-crane_grip=Agarrar tabla
+crane_mis1_desc=El objetivo de esta misión es desplazar 3 tablas hasta alguno de los soportes iluminados en el fondo del almacén.
 
 crane_block=Bloquea la máquina
 crane_blocked=Máquina bloqueada
@@ -97,8 +91,8 @@ crane_tuto2_1=Pasa por encima de los botones con el cursor para ver que funcion 
 crane_control2=Amarra los tablones con las eslingas
 crane_tuto3=Para realizar el eslingado pulsa el botón de Grip (gatillo del dedo corazón) del mando derecho. 
 crane_tuto3_1=Es importante tener en cuenta las normas de seguridad con respecto al eslingado y la circulación en zonas donde ocurren elevaciones de cargas. 
-crane_tuto_fin=Has conseguido colocar un grupo de tablas. 
-crane_repeat=Repite el mismo proceso para 2 grupos más.
+crane_tuto_fin=Has conseguido colocar una tabla. 
+crane_repeat=Repite el mismo proceso para 2 tablas más.
 ----------------------------------------------------------------------------------------------
 
 
@@ -106,7 +100,6 @@ crane_repeat=Repite el mismo proceso para 2 grupos más.
 //Title and description
 clean=Operario de limpieza y gestión de residuos
 clean_desc= Consiste en una serie de simulaciones prácticas que permitirán a los usuarios perfeccionar sus técnicas y procesos, asegurando un entorno de trabajo más limpio y seguro, al tiempo que contribuyen a la reducción del impacto ambiental de la fábrica de piedra natural.
-
 
 //Intro
 clean_intro1=Bienvenido a la práctica de operario de limpieza.

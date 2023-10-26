@@ -8,8 +8,7 @@ public class AtachTarget : MonoBehaviour
     private GameObject[] inputs;
 
     [SerializeField] private GameObject amarre;
-    [SerializeField] private GameObject amarrado;
-    [SerializeField] private GameObject no_amarrado;
+    [SerializeField] private GameObject amarreModelo;
 
     private bool isGrip = false; 
     private bool gripButtonPressed = false;  // Bandera para rastrear si el botón de grip está presionado
@@ -19,6 +18,8 @@ public class AtachTarget : MonoBehaviour
     
     public float hookSpeed = 5.0f;
     public float pendulumLimit = 10.0f;
+
+    private GameObject tablaUnit;
 
     void Start()
     {
@@ -44,11 +45,11 @@ public class AtachTarget : MonoBehaviour
     {
         if(col.CompareTag("Target") && col.isTrigger)
         {
-            //if (col.GetComponent<TargetWeight>().panelCompleted)
-            //{
-            if (col.GetComponent<HingeJoint>() == null && isGrip)
+            tablaUnit = col.transform.GetChild(0).gameObject;
+
+            if (tablaUnit.GetComponent<HingeJoint>() == null && isGrip)
             { 
-                AttachObject(col.gameObject);
+                AttachObject(tablaUnit);
             }
             else if (joint && !isGrip && !this.GetComponent<CheckDistance>().isTooFar())
             {
@@ -122,13 +123,18 @@ public class AtachTarget : MonoBehaviour
 
     private void AttachObject(GameObject target)
     {
-        
+        //Set amarrado texture
+        target.transform.Find("Amarrado").gameObject.SetActive(true);
+        amarreModelo.SetActive(true);
+
         joint = target.AddComponent<HingeJoint>();
 
         // Configura las propiedades del joint
         joint.connectedBody = amarre.GetComponent<Rigidbody>();
 
         // Establece el eje de giro para simular el movimiento pendular
+        joint.autoConfigureConnectedAnchor = false;
+        joint.connectedAnchor = new Vector3(0f, 0.12f, 0.002f);
         joint.anchor = new Vector3(0f, 0f,0.5f); 
         joint.axis = new Vector3(0f, 0.1f, 0f);
 
@@ -147,8 +153,7 @@ public class AtachTarget : MonoBehaviour
         motor.targetVelocity = hookSpeed;
         joint.motor = motor;
 
-        amarrado.SetActive(true);
-        //no_amarrado.SetActive(false);
+
     }
 
     private void DetachObject()
@@ -156,8 +161,7 @@ public class AtachTarget : MonoBehaviour
         Destroy(joint);
         joint = null;
 
-
-        amarrado.SetActive(false);
-        //no_amarrado.SetActive(true);
+        tablaUnit.transform.Find("Amarrado").gameObject.SetActive(false);
+        amarreModelo.SetActive(false);
     }
 }
