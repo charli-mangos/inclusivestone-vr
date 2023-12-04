@@ -106,7 +106,6 @@ clean_intro1=Bienvenido a la práctica de operario de limpieza.
 clean_intro2=En esta sección los usuarios aprenderán los conceptos clave, como la identificación de áreas prioritarias de limpieza, la selección de productos y equipos de limpieza adecuados, así como las pautas para el manejo de residuos de manera segura y sostenible.
 
 //Mission 1 Recogida de residuos
-//Mission 2 Ordenar los productos quimicos
 //Mission 3 Gestión de residuos
 clean_mis1=Limpieza del espacio de trabajo
 clean_mis1_info1=El objetivo de este entrenamiento es realizar las tareas de limpieza de la fábrica de manera correcta 
@@ -114,7 +113,21 @@ clean_mis1_info1=El objetivo de este entrenamiento es realizar las tareas de lim
 clean_mis2=Gestión de residuos
 clean_mis2_info1=El objetivo de este entrenamiento es desechar los residuos de manera correcta
 
-clean_tuto1=Acércate al armario de limpieza para recoger los productos y objetos necesarios.
+clean_tuto_loc=Acércate al armario de limpieza para recoger los productos y objetos necesarios.
+clean_tuto1=Abre el armario de limpieza. 
+clean_tuto1_info1=Para ello, acerca la mano al pomo de la puerta, utiliza el botón de Grip (gatillo del dedo corazón) de cualquiera de los mandos y tira hacia ti. 
+clean_tuto2=Selecciona los EPI. 
+clean_tuto2_info1=Agarra los EPI que necesitarás para realizar la limpieza de una manera segura. Recuerda que necesitarás los guantes de limpieza, las gafas de seguridad y la máscara respiratoria. 
+clean_tuto2_info2=Para ello, acerca la mano al objeto y presiona el botón de Grip (gatillo del dedo corazón) de cualquiera de las dos manos.  
+clean_tuto2_selec=Objetos seleccionados:
+clean_tuto3=Agarra el carro de limpieza
+clean_tuto3_info1=Acercate a los agarres del carro y utiliza el botón de Grip, para agarrar el carro y que vaya contigo. 
+clean_tuto3_info2=Para soltar el carro, presiona el mismo botón de Grip. 
+clean_tuto4=Ve a la zona de trabajo
+clean_tuto4_info1=Utiliza la herramienta de teletransporte para ir a la zona de trabajo de la planta de roca natural. 
+clean_tuto4_info2=Encuentra la señal para continuar con la tarea de limpieza. 
+
+
 ----------------------------------------------------------------------------------------------
 
 

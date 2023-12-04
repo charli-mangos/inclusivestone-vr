@@ -45,7 +45,7 @@ public class AtachTarget : MonoBehaviour
     {
         if(col.CompareTag("Target") && col.isTrigger)
         {
-            tablaUnit = col.transform.GetChild(0).gameObject;
+            tablaUnit = col.gameObject;
 
             if (tablaUnit.GetComponent<HingeJoint>() == null && isGrip)
             { 
@@ -55,11 +55,6 @@ public class AtachTarget : MonoBehaviour
             {
                 DetachObject();
             }
-            /*}
-            else
-            {
-                col.GetComponent<TargetWeight>().setAPanel();
-            }*/
            
         }
     }
@@ -134,7 +129,7 @@ public class AtachTarget : MonoBehaviour
 
         // Establece el eje de giro para simular el movimiento pendular
         joint.autoConfigureConnectedAnchor = false;
-        joint.connectedAnchor = new Vector3(0f, 0.12f, 0.002f);
+        joint.connectedAnchor = new Vector3(-0.0005f, 0.12f, 0.003f);
         joint.anchor = new Vector3(0f, 0f,0.5f); 
         joint.axis = new Vector3(0f, 0.1f, 0f);
 

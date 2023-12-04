@@ -22,7 +22,13 @@ public class CraneButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         {
             control.power = this.power;
             control.state = this.state;
+
+            if(this.state != "Start")
+            {
+                control.GetComponent<AudioSource>().Play();
+            }
         }
+
     }
 
     //If button is clicked up
@@ -33,6 +39,8 @@ public class CraneButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
             control.power = 0;
             control.state = "None";
         }
+
+        control.GetComponent<AudioSource>().Stop();
     }
 
 }

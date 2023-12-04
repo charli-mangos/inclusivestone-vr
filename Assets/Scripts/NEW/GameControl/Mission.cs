@@ -19,11 +19,11 @@ public class Mission : MonoBehaviour
 
     //Signal gameObject
     public GameObject prefabSignal;
-    public Vector3 prefabPosition;
     private GameObject signal;
 
     //Canvas element
-    public GameObject canvas;
+    public GameObject missionCanvas;
+    public GameObject missionTutorial;
 
     //Next mission UI
     [SerializeField] private GameObject finMissionPanel;
@@ -47,24 +47,30 @@ public class Mission : MonoBehaviour
 
     void Start()
     {
-        initMission();
+        if (missionTutorial != null)
+        {
+            missionTutorial.SetActive(true);
+        }
+        else
+        {
+            initMission();
+        }
     }
 
     //Is called when mission started
     public void initMission()
     {
         //isStarted = true;
-
-        if(canvas != null)
+        if(missionCanvas != null)
         {
-            canvas.SetActive(true);
+            missionCanvas.SetActive(true);
             //canvas.GetComponent<Instructions>().setNextInstructions();
         }
 
         //Instantiate warning signal
         if (signal == null && prefabSignal != null)
         {
-            signal = Instantiate(prefabSignal, new Vector3(canvas.transform.position.x, highVal, canvas.transform.position.z), Quaternion.identity) as GameObject;
+            signal = Instantiate(prefabSignal, new Vector3(missionCanvas.transform.position.x, highVal, missionCanvas.transform.position.z), Quaternion.identity) as GameObject;
             signal.transform.parent = this.transform;
         }
 
@@ -92,9 +98,9 @@ public class Mission : MonoBehaviour
 
     IEnumerator FinalizeMission()
     {
-        if(canvas != null)
+        if(missionCanvas != null)
         {
-            canvas.SetActive(false);
+            missionCanvas.SetActive(false);
 
         }
 

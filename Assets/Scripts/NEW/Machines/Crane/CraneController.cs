@@ -28,8 +28,16 @@ public class CraneController : MonoBehaviour
     public bool isDown = false;
     public bool isUp = false;
 
+    public AudioSource audio;
+
+    void Start()
+    {
+        audio = this.gameObject.GetComponent<AudioSource>();
+        audio.Stop();
+    }
+
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         //Check stop state and power value
         if (power != 0 && state != "Block")
@@ -54,7 +62,7 @@ public class CraneController : MonoBehaviour
             {
                 if(power > 0 && !isUp)
                 {
-                    ropes.transform.localScale = ropes.transform.localScale + new Vector3(0, 0, 1f) * (-power * constForce);
+                    ropes.transform.localScale = ropes.transform.localScale + new Vector3(0, 0, 1f) * (-power * constForce * 0.8f);
 
                     foreach (var ele in gancho)
                     {
@@ -65,7 +73,7 @@ public class CraneController : MonoBehaviour
                 }
                 else if (power < 0 && !isDown)
                 {
-                    ropes.transform.localScale = ropes.transform.localScale + new Vector3(0, 0, 1f) * (-power * constForce);
+                    ropes.transform.localScale = ropes.transform.localScale + new Vector3(0, 0, 1f) * (-power * constForce * 0.8f);
 
                     foreach (var ele in gancho)
                     {
@@ -93,7 +101,6 @@ public class CraneController : MonoBehaviour
         }
 
     }
-
 
     void OnTriggerEnter(Collider col)
     {

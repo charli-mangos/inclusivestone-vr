@@ -10,4 +10,7 @@ public class Selectable
 
     //Says if selectable is needed in this scene or not
     public bool isNeeded;
+
+    //Representative Image
+    public GameObject ImageOBJ;
 }

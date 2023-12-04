@@ -1,87 +1,135 @@
 //MAIN MENU
-lang=Selecciona un lenguaje:
-selected_lang=Lenguaje seleccionado:
-menu_tittle=Menu principal
+lang=Select a language:
+selected_lang=Selected language:
+menu=Main menu
 
 //Buttons
-continue=Continuar
-start=Empezar
+continue=Continue
+start=Start
+restart=Restart
 
 //General
-congrats=¡Enhorabuena!
-completed=Has completado la misión con éxito.
-go_menu=Volver al menú inicial de selección de escenas.
+congrats=Congratulations!
+completed=You have successfully completed the mission.
+go_menu=Return to the initial scene selection menu.
+controls=Controls
+try_again=Try again
+fail_mission=This is not the correct answer.
+follow_steps=To do so, follow the steps that will appear on the panels.
 
-//Init Info
-intro1=Intenta realizar los pasos con seguridad.
-intro2=Tienes que completar algunas misiones.
-intro3=Para encontrarlas necesitas buscar la siguiente señal:
-intro4=Para moverte por el escenario usa la herramienta de teletransporte. 
-intro5=Esta se activa con el botón principal (A or X).
+//Locomotion tutorial
+locomotion=Teleport
+locomotion_desc=Press the A or X button to teleport to the illuminated point.
 
 ------------------------------------------------------------------------
 
 
 //FORKLIFT
 //Title and description
-fork=****Uso de sierra con refrigeración por agua para reducir el polvo 
-fork_desc=****En esta situación se va a pavimentar una zona de una casa. Para ello, se va a utilizar una sierra refrigerada por agua para reducir el polvo. El jugador debe realizar los pasos necesarios para utilizar esta herramienta con seguridad.
+fork=Forklift operator
+fork_desc=In this section users will learn in a practical and safe way how to operate a forklift in the stone industry. With real-time feedback, this section aims to improve the skills and knowledge of operators, contributing to more efficient and safer handling of heavy materials in the stone sector.
 
 //Intro
-fork_intro1=Bienvenido a la práctica de operario de carretilla.
-fork_intro2=****Uso de sierra con refrigeración por agua para reducir el polvo 
+fork_intro1=Welcome to the forklift operator internship.
+fork_intro2=This experience includes challenges such as loading and unloading stone materials, maneuvering in tight spaces and stacking heavy loads.
 
 //Mission 1
-fork_mis1=Transporte de cargas
-fork_mis1_desc=En esta misón debes llevar cajas desde la zona de acabados al almacen.
-fork_mis1_info1=El objetivo de esta misión es llevar 3 pallets de esta zona al almacen del producto.
-fork_mis1_info2=En el almacen, tendrás que ordenar los pallets dentro de la zona iluminada.
-fork_mis1_fin1=Has conseguido finalizar la misión.
+fork_mis1=Freight transport
+fork_mis1_info1=The objective of this mission is to carry 3 pallets from the processing plant to the warehouse.
+
+fork_mis1_info2=In the warehouse, you will have to arrange the pallets inside the lighted area.
 
 //Mission 2
-fork_mis2=Carga de comiones
-fork_mis2_desc=En esta misón debes introducir el producto en los camiones.
+fork_mis2=Truck loading
+fork_mis2_info1=The objective of this mission is to carry 3 pallets from the warehouse to the inside of the truck for further transport.
 
+//Tutorial
+fork_tuto1=Accelerate
+fork_tuto1_info1=Press the trigger (index finger) of your right hand to accelerate the forklift.
+fork_tuto1_info2=Remember the safety rules of the working environment to avoid accidents.
+fork_tuto2=Reverse
+fork_tuto2_info1=Press the trigger (index finger) of the left hand to reverse.
+fork_tuto3=Brake
+fork_tuto3_info1=Press the main button (A or X) with your thumb to brake the forklift.
+fork_tuto4=Turn
+fork_tuto4_info1=Move the left hand joystick sideways to turn the forklift.
+fork_tuto4_info2=Accelerate to check the turning.
+fork_tuto5=Forklift control
+fork_tuto5_info1=Reach your hand to one of the levers on the lower right and press the Grip button (middle finger) to grab the lever.
+fork_tuto5_info2=While grasping one of the levers, move the joystick in your left hand up and down to move the lift screen. 
+fork_tuto6_info1=You have successfully moved one pallet.
+fork_tuto6_info2=Repeat the same process for 2 more.
 ------------------------------------------------------------------------------------
 
 
-//SITUATION 2
+//CRANE
 //Title and description
-crane=****Aplicación en función del nanoproducto en una fábrica
-crane_desc=****En esta situación, se aplicarán diferentes productos a la piedra natural en la fábrica. Deben tomarse las medidas correctas para evitar poner en peligro el producto y nuestra salud.
+crane=Overhead Crane operator
+crane_desc=This section provides users with a practical and safe learning experience on the operation of overhead cranes in the stone industry. Real-time feedback will enable them to improve their skills and knowledge as operators, promoting more efficient and safer handling of heavy materials in this specific sector.
 
 //Intro
-crane_intro1=Bienvenido a la práctica de operario de grúa.
-crane_intro2=****Aplicación en función del nanoproducto en una fábrica
+crane_intro1=Welcome to the crane operator trial
+crane_intro2=In this training, users will face challenges that involve loading and unloading heavy materials, maneuvering with precision in tight spaces, and stacking bulky loads using the overhead crane.
 
+//Mission
+crane_mis1=Transporting slabs
+crane_mis1_desc=The objective of this mission is to move 3 marble slabs to one of the lighted supports at the bottom of the warehouse.
 
+crane_block=Locks the machine
+crane_blocked=Machine locked
+crane_start=Activates the machine
+crane_up=Raises the hook
+crane_down=Lowers the hook
+crane_north=Moves motor forward
+crane_south=Moves motor backward
+crane_east=Moves the motor to the right
+crane_west=Moves the motor to the left
 
+//Tutorial
+crane_tuto1=Get close to one of the marble slabs using the teleport tool. 
+crane_control=Operating the bridge crane
+crane_tuto2=Use the bridge crane control to move the hook towards the slab you are going to move. 
+crane_tuto2_1=Hover over the buttons with the cursor to see what function each one has.
+crane_control2=Tie the planks with the slings
+crane_tuto3=To sling, press the Grip button (middle finger trigger) on the right controller. 
+crane_tuto3_1=It is important to consider the safety rules regarding slinging and movement in areas where lifting occurs. 
+crane_tuto_fin=You have successfully placed a marble slab. 
+crane_repeat=Repeat the same process for 2 more slabs.
 ----------------------------------------------------------------------------------------------
 
 
-//SITUATION 3
+//CLEAN
 //Title and description
-clean=****Vertido de polvo de nanomaterial en una matriz líquida para crear una mezcla
-clean_desc=****En esta situación, el usuario tendrá que hacer una mezcla de polvo en una matriz líquida para aplicarla en un entorno de construcción.
+clean=Cleaning and waste management operator
+clean_desc=It consists of a series of practical simulations that will allow users to perfect their techniques and processes, ensuring a cleaner and safer working environment, while contributing to the reduction of the environmental impact of the natural stone factory.
 
 //Intro
-clean_intro1=Bienvenido a la práctica de operario de limpieza.
-clean_intro2=****Vertido de polvo de nanomaterial en una matriz líquida para crear una mezcla.
+clean_intro1=Welcome to the cleaning operator practice.
+clean_intro2=In this section users will learn key concepts such as identifying priority areas for cleaning, selecting appropriate cleaning products and equipment, as well as guidelines for safe and sustainable waste management.
 
+//Mission 1 Recogida de residuos
+clean_mis1=Workspace cleaning
+clean_mis1_info1=The objective of this training is to perform the factory cleaning tasks in a correct manner.
 
+//Mission 2 Ordenar los productos quimicos
+clean_mis2=Waste management
+clean_mis2_info1=The objective of this training is to dispose of waste correctly.
 
+//Mission 3 Gestión de residuos
+
+//Tutorial
+clean_tuto1=Go to the cleaning cupboard to collect the necessary products and items.
 ----------------------------------------------------------------------------------------------
 
 
 //SITUATION 4
 //Title and description
-cnc=****Nanomaterial aplicado con pistola pulverizadora sobre una superficie de piedra natural
-cnc_desc=****Se trata de preparar una zona de trabajo al aire libre donde se aplicarán los nanomateriales a las superficies de piedra con una pistola pulverizadora. La aplicación tendrá lugar en una piscina y las condiciones ambientales no serán óptimas.
+cnc=CNC Operator
+cnc_desc=This section will allow to perfect the skills and processes of the users, ensuring an efficient and safe operation of the CNC machines, which in turn guarantees quality and productivity in the production of natural stone.
 
 //Intro
-cnc_intro1=Bienvenido a la práctica de operario de cnc.
-cnc_intro2=****Prepare una zona de trabajo al aire libre donde se aplicarán los nanomateriales a las superficies de piedra con una pistola pulverizadora.
-
+cnc_intro1=Welcome to the job of CNC Operator.
+cnc_intro2=This training will address critical safety aspects of CNC machine operation, including hazard control and preventive maintenance.
 
 
 -----------------------------------------------------------------------------------------

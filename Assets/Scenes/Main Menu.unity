@@ -185155,7 +185155,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Italiano
+  m_Text: Hrvatska
 --- !u!1 &7932419950029711291
 GameObject:
   m_ObjectHideFlags: 0
@@ -185468,7 +185468,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 53595a5d777109f41b57fa994fd458a1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d924c63746f363a40ace70cbb10a970b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -185786,7 +185786,7 @@ GameObject:
   - component: {fileID: 7932419950388579740}
   - component: {fileID: 7932419950388579743}
   m_Layer: 5
-  m_Name: Italiano
+  m_Name: Croatian
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -186254,7 +186254,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2020-1-DE02-KA202-007674
+  m_Text: ' 2021-1-DE02-KA220-VET-000033276'
 --- !u!222 &7932419950632179923
 CanvasRenderer:
   m_ObjectHideFlags: 0

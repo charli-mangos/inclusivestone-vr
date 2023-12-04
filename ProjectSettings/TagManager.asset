@@ -19,6 +19,9 @@ TagManager:
   - Amarre
   - Wall
   - Tabla
+  - Barrote
+  - Soportes
+  - Obstacle
   layers:
   - Default
   - TransparentFX
@@ -29,8 +32,8 @@ TagManager:
   - Grab
   - Body
   - Target
-  - 
-  - 
+  - Selectable
+  - Highlight
   - 
   - 
   - 

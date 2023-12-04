@@ -3,67 +3,45 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 using UnityEngine.UI;
-//using TMPro;
-using System;
-using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
 
 public class SelectObject : MonoBehaviour
 {
-    //Possible objs to select
     public Selectable[] selectObjs;
     public static List<Selectable> totalSelectables;
 
-    //List of selected objs
     private List<Selectable> selected;
-
-    //Text element
-    public Text instrText;
-
-    public string checkID;
-    private string initPhrase;
-
-    //Total of needed elements
     private int totalNeeded = 0;
 
-    //Btn gameobjects
     public GameObject checkPanel;
-    public GameObject congratsPanel;
-    public GameObject failPanel;
-
-    //Animation controller
     public Animator workerAnimator;
 
-    //Loading element
-    public GameObject loadingImg;
+    public Color highlightColor = Color.white;
+    public Color notSelectedColor = Color.white;
 
-    //Check bool
+    private Instructions ins;
     private bool fail;
+    private bool finished;
 
-    //Game Controller element
-    public GameController gameController;
-
-    // Start is called before the first frame update
     void Start()
     {
-        initPhrase = instrText.text;
-
+        finished = false;
         InitLists();
         InitHighight();
+        ins = checkPanel.GetComponent<Instructions>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
-        //Update number of selections
-        if (instrText.text.Contains(initPhrase) && totalNeeded > 1)
+        if (!finished && selected.Count == totalNeeded)
         {
-            instrText.text = initPhrase + "\n" + selected.Count + "/" + totalNeeded;
+            checkSelection();
         }
     }
 
     public void InitHighight()
     {
-        foreach(Selectable sel in totalSelectables)
+        foreach (Selectable sel in totalSelectables)
         {
             sel.objSelectable.GetComponent<Highlight>().enabled = true;
         }
@@ -71,20 +49,13 @@ public class SelectObject : MonoBehaviour
 
     public void InitLists()
     {
-        //Init conditions
-        instrText.text = initPhrase;
         fail = false;
         totalNeeded = 0;
 
-        //Play idle animation if there is an NPC
         if (workerAnimator != null)
         {
             workerAnimator.Play("Idle");
         }
-
-        checkPanel.SetActive(true);
-        failPanel.SetActive(false);
-        congratsPanel.SetActive(false);
 
         if (totalSelectables == null || totalSelectables.Count == 0)
         {
@@ -93,8 +64,8 @@ public class SelectObject : MonoBehaviour
 
         foreach (Selectable element in totalSelectables)
         {
-            element.objSelectable.SetActive(true);
-            element.objSelectable.layer = LayerMask.NameToLayer("Selectable");
+            //SetSelectableState(element, true, "Selectable");
+            SetSelectableState(element, notSelectedColor, true);
 
             if (element.isNeeded)
             {
@@ -107,89 +78,82 @@ public class SelectObject : MonoBehaviour
 
     public void selectObject(GameObject obj)
     {
-        if(totalSelectables.Count > 0)
-        {
-            foreach (var element in totalSelectables)
-            {
-                if (element.objSelectable == obj)
-                {
-                    selected.Add(element);
+        int highlightLayer = LayerMask.NameToLayer("Highlight");
 
-                    obj.SetActive(false);
+        if (totalSelectables.Count > 0 && obj.layer == highlightLayer)
+        {
+            var foundElement = totalSelectables.FirstOrDefault(element => element.objSelectable == obj);
+            if (foundElement != null)
+            {
+                selected.Add(foundElement);
+                obj.SetActive(false);
+                SetSelectableState(foundElement, highlightColor, false);
+
+                if (selected.Count == 1 && ins.GetCurrentInstructionsName() != "SelectedProducts")
+                {
+                    ins.finishInstruction();
+                    ins.setNextInstructions();
                 }
             }
         }
     }
+
+    public void cancelObject(GameObject obj)
+    {
+        if (totalSelectables.Count > 0)
+        {
+            var foundElement = totalSelectables.FirstOrDefault(element => element.objSelectable == obj);
+            if (foundElement != null)
+            {
+                SetSelectableState(foundElement, notSelectedColor, true);
+                obj.SetActive(true);
+                selected.Remove(foundElement);
+                // Deseleccionar cualquier elemento seleccionado en el EventSystem
+                EventSystem.current.SetSelectedGameObject(null);
+            }
+        }
+    }
+
 
     public void checkSelection()
     {
-        instrText.text = MainTranslate.Fields[checkID] + "\n" + "\n";
-
-        if(selected.Count < totalNeeded || totalNeeded < selected.Count)
+        foreach (Selectable element in selected)
         {
-            StartCoroutine(failedMission());
-        }
-        else
-        {
-            foreach (Selectable element in selected)
+            if (totalSelectables.Contains(element) && !element.isNeeded)
             {
-                int index = totalSelectables.IndexOf(element);
-
-                if (totalSelectables[index] == element)
-                {
-                    if (totalSelectables[index].isNeeded == false)
-                    {
-                        fail = true;
-
-                        break;
-                    }
-                }
-            }
-
-            if (selected.Count == 0 || fail == true)
-            {
-                StartCoroutine(failedMission());
-            }
-            else
-            {
-                StartCoroutine(completedMission());
+                fail = true;
+                break;
             }
         }
 
-        
-    }
-
-    IEnumerator failedMission()
-    {
-        yield return new WaitForSeconds(2f);
-
-        loadingImg.SetActive(false);
-
-        if (workerAnimator)
+        if (!fail)
         {
-            workerAnimator.Play("Shaking Head No");
+            StartCoroutine(completedMission());
+            finished = true;
         }
-
-        gameController.addMistake();
-
-        checkPanel.SetActive(false);
-        congratsPanel.SetActive(false);
-        failPanel.SetActive(true);
     }
 
     IEnumerator completedMission()
     {
-        yield return new WaitForSeconds(2f);
-
-        loadingImg.SetActive(false);
+        yield return new WaitForSeconds(1.5f);
 
         if (workerAnimator)
         {
             workerAnimator.Play("Head Nod Yes");
         }
 
-        checkPanel.SetActive(false);
-        congratsPanel.SetActive(true);
-        failPanel.SetActive(false);
+        ins.finishInstruction();
+        ins.setNextInstructions();
+
+        this.enabled = false;
+    }
+
+    private void SetSelectableState(Selectable selectable, Color color, bool showCancel)
+    {
+        PlayerPrefs.SetString("actual_HighLight", "None");
+        selectable.objSelectable.layer = LayerMask.NameToLayer(showCancel ? "Selectable" : "Default");
+        selectable.ImageOBJ.GetComponent<Image>().color = color;
+        selectable.ImageOBJ.transform.Find("Cancel").gameObject.SetActive(!showCancel);
+        selectable.objSelectable.SetActive(showCancel);
     }
 }

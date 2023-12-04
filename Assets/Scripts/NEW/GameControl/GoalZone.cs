@@ -40,7 +40,7 @@ public class GoalZone : MonoBehaviour
         marcador.text = numOfGoals.ToString() + '/' + maxOfGoals.ToString();
     }
 
-    void OnTriggerEnter(Collider col)
+    void OnTriggerStay(Collider col)
     {
         if (col.gameObject.tag == "Target" && uncompletedTargets.Contains(col.gameObject) && col.GetComponent<HingeJoint>() == null && col.GetComponent<FixedJoint>() == null && gameController.getCurrentMission() == mission)
         {
@@ -59,6 +59,7 @@ public class GoalZone : MonoBehaviour
             {
                 tutorialPanel.setNextInstructions();
             }
+
         }
     }
 
