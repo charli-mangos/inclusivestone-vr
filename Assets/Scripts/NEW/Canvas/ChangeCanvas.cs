@@ -34,6 +34,6 @@ public class ChangeCanvas : MonoBehaviour
 
         nextCanvas.SetActive(true);
 
-        this.enabled = false;
+        Destroy(this);
     }
 }

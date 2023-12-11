@@ -14,6 +14,7 @@ go_menu=Volver al menú inicial de selección de escenas.
 controls=Controles
 try_again=Intentar de nuevo
 fail_mission=Esa no es la respuesta correcta.
+completed_quest=Esa es la respuesta correcta.
 follow_steps=Para ello, sigue los pasos que aparecerán en los paneles.
 
 //Locomotion tutorial
@@ -106,9 +107,15 @@ clean_intro1=Bienvenido a la práctica de operario de limpieza.
 clean_intro2=En esta sección los usuarios aprenderán los conceptos clave, como la identificación de áreas prioritarias de limpieza, la selección de productos y equipos de limpieza adecuados, así como las pautas para el manejo de residuos de manera segura y sostenible.
 
 //Mission 1 Recogida de residuos
-//Mission 3 Gestión de residuos
 clean_mis1=Limpieza del espacio de trabajo
-clean_mis1_info1=El objetivo de este entrenamiento es realizar las tareas de limpieza de la fábrica de manera correcta 
+clean_mis1_info1=El objetivo de este entrenamiento es realizar las tareas de limpieza de la fábrica de manera correcta.
+
+clean_mis1_desc=Acércate a cada uno de los diferentes residuos que puedes encontrar en el espacio de trabajo y decide que hacer con ellos. 
+
+clean_quiz_fact=¿Qué debes hacer con este tipo de residuo?
+clean_quiz_option1=Avisar a un compañero para que lo recoja con equipo especializado. 
+clean_quiz_option2=Al ser residuo líquido, recogerlo con la fregona. 
+clean_quiz_option3=Al ser residuo sólido, recogerlo con la escoba.
 
 clean_mis2=Gestión de residuos
 clean_mis2_info1=El objetivo de este entrenamiento es desechar los residuos de manera correcta

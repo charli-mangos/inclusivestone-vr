@@ -83,6 +83,7 @@ public class SelectObject : MonoBehaviour
         if (totalSelectables.Count > 0 && obj.layer == highlightLayer)
         {
             var foundElement = totalSelectables.FirstOrDefault(element => element.objSelectable == obj);
+
             if (foundElement != null)
             {
                 selected.Add(foundElement);

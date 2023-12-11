@@ -43,6 +43,8 @@ public class MultipleSelectionQuiz : MonoBehaviour
     //Game Controller element
     public GameController gameController;
 
+    public bool panelCompleted = false;
+
 
     private void Start()
     {
@@ -227,7 +229,8 @@ public class MultipleSelectionQuiz : MonoBehaviour
 
         if (nextPanel)
         {
-            nextPanel.SetActive(true);
+            panelCompleted = true;
+            nextPanel.SetActive(true); 
         }
 
         if (this.GetComponentInParent<TargetWeight>() != null)
