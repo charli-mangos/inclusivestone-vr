@@ -132,6 +132,10 @@ public class SelectObject : MonoBehaviour
             StartCoroutine(completedMission());
             finished = true;
         }
+        else
+        {
+            fail = false;
+        }
     }
 
     IEnumerator completedMission()

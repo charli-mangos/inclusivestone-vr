@@ -9,42 +9,24 @@ using UnityEngine.EventSystems;
 
 public class MultipleSelectionQuiz : MonoBehaviour
 {
-    //Unanswered questions
     public Question[] questions;
     private List<Question> unanswered;
-
-    //Current question
     private Question currentQuestion;
+    private List<string> correctResponse;
+    private List<string> selected;
 
-    //Text fact component
     public Text questFact;
-
-    //Button elements and response text placement
     public Button[] optionBtns;
     public Text[] responsesText;
     public Image imgComp;
 
-    //Correct answer
-    private List<string> correctResponse;
-
-    //Selected answer
-    private List<string> selected;
-
-    //Question panel gameobject
     public GameObject questPanel;
-    //Wrong result panel gameobject
     public GameObject wrongPanel;
-    //Next panel gameobject
     public GameObject nextPanel;
 
-    //Reinit button option
     public bool reInitButtons = true;
-
-    //Game Controller element
     public GameController gameController;
-
     public bool panelCompleted = false;
-
 
     private void Start()
     {
@@ -56,11 +38,11 @@ public class MultipleSelectionQuiz : MonoBehaviour
         questPanel.SetActive(true);
         wrongPanel.SetActive(false);
 
-        unanswered = questions.ToList<Question>();
+        unanswered = questions.ToList();
 
-        foreach (var but in optionBtns)
+        foreach (var button in optionBtns)
         {
-            but.interactable = true;
+            button.interactable = true;
         }
 
         SetNextQuestion();
@@ -68,9 +50,6 @@ public class MultipleSelectionQuiz : MonoBehaviour
 
     void SetNextQuestion()
     {
-        //Randomizer
-        //currentQuestion = questions[Random.Range(0, questions.Count)];
-
         correctResponse = new List<string>();
         selected = new List<string>();
 
@@ -80,22 +59,10 @@ public class MultipleSelectionQuiz : MonoBehaviour
 
             questFact.text = MainTranslate.Fields[currentQuestion.fact];
 
-
             if (imgComp)
             {
                 imgComp.sprite = currentQuestion.imageFact;
             }
-
-            //If there is extra data update it
-            /*if (extraText)
-            {
-                extraText.text = "";
-
-                foreach (string dataID in currentQuest.extraData)
-                {
-                    extraText.text += "- " + MainTranslate.Fields[dataID] + Environment.NewLine;
-                }
-            }*/
 
             SetAnswerOptions();
         }
@@ -107,51 +74,45 @@ public class MultipleSelectionQuiz : MonoBehaviour
 
     void SetAnswerOptions()
     {
-        int i = 0;
-
-        //Check every option in question and update the button
-        foreach (var but in currentQuestion.options)
+        for (int i = 0; i < currentQuestion.options.Length; i++)
         {
-            //Change button name
-            optionBtns[i].gameObject.name = but.name;
+            var button = optionBtns[i];
+            var option = currentQuestion.options[i];
+
+            button.gameObject.name = option.name;
 
             if (reInitButtons)
             {
-                optionBtns[i].interactable = true;
+                button.interactable = true;
             }
 
-
-            //Change option button content
-            if (optionBtns[i].transform.Find("Text"))
+            if (button.transform.Find("Text"))
             {
-                optionBtns[i].transform.Find("Text").GetComponent<Text>().text = MainTranslate.Fields[but.fact];
+                button.transform.Find("Text").GetComponent<Text>().text = MainTranslate.Fields[option.fact];
             }
 
-            //If there are images change the values
-            if (but.image)
+            if (option.image)
             {
-                optionBtns[i].GetComponent<Image>().sprite = but.image;
-                SpriteState st = new SpriteState();
-                st.highlightedSprite = but.highLightImage;
-                st.pressedSprite = but.highLightImage;
-                optionBtns[i].spriteState = st;
-                optionBtns[i].targetGraphic = optionBtns[i].GetComponent<Image>();
+                button.GetComponent<Image>().sprite = option.image;
+                SpriteState st = new SpriteState
+                {
+                    highlightedSprite = option.highLightImage,
+                    pressedSprite = option.highLightImage
+                };
+                button.spriteState = st;
+                button.targetGraphic = button.GetComponent<Image>();
             }
 
-            //Change response text
             if (responsesText.Length > 0)
             {
-                responsesText[i].text = MainTranslate.Fields[but.response];
-                responsesText[i].gameObject.name = but.name;
+                responsesText[i].text = MainTranslate.Fields[option.response];
+                responsesText[i].gameObject.name = option.name;
             }
 
-            //Get correct responses
-            if (currentQuestion.options[i].isCorrect)
+            if (option.isCorrect)
             {
-                correctResponse.Add(but.name);
+                correctResponse.Add(option.name);
             }
-
-            i++;
         }
     }
 
@@ -159,15 +120,13 @@ public class MultipleSelectionQuiz : MonoBehaviour
     {
         InitQuiz();
 
-        foreach (var but in currentQuestion.options)
+        foreach (var option in currentQuestion.options)
         {
-            if (but.name == text)
+            if (option.name == text)
             {
-                but.isCorrect = true;
+                option.isCorrect = true;
             }
         }
-        //currentQuestion.options.Find(element => element.name == name).isCorrect = true;
-        //SetAnswerOptions();
     }
 
     public void selectButton(GameObject button)
@@ -183,18 +142,8 @@ public class MultipleSelectionQuiz : MonoBehaviour
 
     public void checkResponse()
     {
-        if (selected.Count == correctResponse.Count)
+        if (selected.Count == correctResponse.Count && selected.All(resp => correctResponse.Contains(resp)))
         {
-            //Quiz completado
-            foreach (var resp in selected)
-            {
-                if (!correctResponse.Contains(resp))
-                {
-                    failQuestion();
-                    return;
-                }
-            }
-
             completedQuestion();
         }
         else
@@ -202,7 +151,6 @@ public class MultipleSelectionQuiz : MonoBehaviour
             failQuestion();
         }
     }
-
 
     void completedQuestion()
     {
@@ -218,8 +166,12 @@ public class MultipleSelectionQuiz : MonoBehaviour
         if (gameController != null)
         {
             gameController.addMistake();
-
         }
+    }
+
+    public void setPanelCompleted()
+    {
+        panelCompleted = true;
     }
 
     void finishQuiz()
@@ -229,14 +181,13 @@ public class MultipleSelectionQuiz : MonoBehaviour
 
         if (nextPanel)
         {
-            panelCompleted = true;
-            nextPanel.SetActive(true); 
+            nextPanel.SetActive(true);
         }
 
-        if (this.GetComponentInParent<TargetWeight>() != null)
+        var targetWeight = GetComponentInParent<TargetWeight>();
+        if (targetWeight != null)
         {
-            this.GetComponentInParent<TargetWeight>().panelCompleted = true;
+            targetWeight.panelCompleted = true;
         }
     }
 }
-
