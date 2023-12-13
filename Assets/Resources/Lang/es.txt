@@ -16,6 +16,7 @@ try_again=Intentar de nuevo
 fail_mission=Esa no es la respuesta correcta.
 completed_quest=Esa es la respuesta correcta.
 follow_steps=Para ello, sigue los pasos que aparecerán en los paneles.
+restart=Restart
 
 //Locomotion tutorial
 locomotion=Teletransporte
