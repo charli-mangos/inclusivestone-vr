@@ -112,6 +112,8 @@ clean_mis1_info1=El objetivo de este entrenamiento es realizar las tareas de lim
 
 clean_mis1_desc1=Acércate a cada uno de los diferentes residuos que puedes encontrar en el espacio de trabajo y decide que hacer con ellos.
 clean_mis1_desc2=Recuerda que puedes utilizar el botón de Grip (gatillo del dedo corazón) de cualquiera de los mandos para soltar el carro.
+clean_mis1_desc3=Ahora, coge los utensilios necesarios para limpiar los residuos que debas. 
+clean_mis1_desc4=Para ello, sigue usando el botón de Grip de cualquiera de las manos. 
 
 clean_quiz_fact=¿Qué debes hacer con este tipo de residuo?
 clean_quiz_option1=Avisar a un compañero para que lo recoja con equipo especializado. 
