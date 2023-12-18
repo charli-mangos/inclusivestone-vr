@@ -22,6 +22,7 @@ TagManager:
   - Barrote
   - Soportes
   - Obstacle
+  - Hangable
   layers:
   - Default
   - TransparentFX

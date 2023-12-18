@@ -17,10 +17,10 @@ public class TwoHandGrab : XRGrabInteractable
     public enum RotationType { None, First, Second };
     public RotationType twoHandRotationType;
 
-    private bool snapToSecond = true;
+    public bool snapToSecond = false;
     private Quaternion initRotOffset;
 
-    public Quaternion rotEvent;
+    private Quaternion rotEvent;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +32,7 @@ public class TwoHandGrab : XRGrabInteractable
         }
 
         initPosition = this.transform.localPosition;
+        initRotation = this.transform.localRotation;
     }
 
     public override void ProcessInteractable(XRInteractionUpdateOrder.UpdatePhase updatePhase)
@@ -89,7 +90,6 @@ public class TwoHandGrab : XRGrabInteractable
     protected override void OnSelectEntered(XRBaseInteractor interactor)
     {
         base.OnSelectEntered(interactor);
-        initRotation = interactor.attachTransform.localRotation;
     }
 
     protected override void OnSelectExited(XRBaseInteractor interactor)
@@ -97,6 +97,9 @@ public class TwoHandGrab : XRGrabInteractable
         base.OnSelectExited(interactor);
         secondInteractor = null;
         interactor.attachTransform.localRotation = initRotation;
+
+        this.transform.localPosition = initPosition;
+        this.transform.localRotation = initRotation;
 
     }
 
