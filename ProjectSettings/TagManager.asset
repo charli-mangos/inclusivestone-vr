@@ -23,6 +23,9 @@ TagManager:
   - Soportes
   - Obstacle
   - Hangable
+  - Fire
+  - Sweep
+  - Scrub
   layers:
   - Default
   - TransparentFX

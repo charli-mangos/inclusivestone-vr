@@ -113,16 +113,15 @@ clean_mis1_info1=El objetivo de este entrenamiento es realizar las tareas de lim
 
 clean_mis1_desc1=Acércate a cada uno de los diferentes residuos que puedes encontrar en el espacio de trabajo y decide que hacer con ellos.
 clean_mis1_desc2=Recuerda que puedes utilizar el botón de Grip (gatillo del dedo corazón) de cualquiera de los mandos para soltar el carro.
-clean_mis1_desc3=Ahora, coge los utensilios necesarios para limpiar los residuos que debas. 
-clean_mis1_desc4=Para ello, sigue usando el botón de Grip de cualquiera de las manos. 
 
 clean_quiz_fact=¿Qué debes hacer con este tipo de residuo?
 clean_quiz_option1=Avisar a un compañero para que lo recoja con equipo especializado. 
 clean_quiz_option2=Al ser residuo líquido, recogerlo con la fregona. 
 clean_quiz_option3=Al ser residuo sólido, recogerlo con la escoba.
 
-clean_mis2=Gestión de residuos
-clean_mis2_info1=El objetivo de este entrenamiento es desechar los residuos de manera correcta
+clean_mis1_2=Recoge los residuos
+clean_mis1_desc3=Coge la escoba o la fregona del carro mediante los botones de Grip (gatillo del dedo corazón) de ambas manos. 
+clean_mis1_desc4=Y trata de recoger con ellas los residuos correspondientes. 
 
 clean_tuto_loc=Acércate al armario de limpieza para recoger los productos y objetos necesarios.
 clean_tuto1=Abre el armario de limpieza. 
@@ -137,6 +136,9 @@ clean_tuto3_info2=Para soltar el carro, presiona el mismo botón de Grip.
 clean_tuto4=Ve a la zona de trabajo
 clean_tuto4_info1=Utiliza la herramienta de teletransporte para ir a la zona de trabajo de la planta de roca natural. 
 clean_tuto4_info2=Encuentra la señal para continuar con la tarea de limpieza. 
+
+clean_mis2=Gestión de residuos
+clean_mis2_info1=El objetivo de este entrenamiento es desechar los residuos de manera correcta
 
 
 ----------------------------------------------------------------------------------------------

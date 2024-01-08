@@ -4,6 +4,7 @@ public class CheckQuizCompletion : MonoBehaviour
 {
     public MultipleSelectionQuiz[] quizzes;  // Asigna los elementos MultipleSelectionQuiz en el Inspector
     public Instructions instructionObject;   // Asigna el objeto Instructions en el Inspector
+    //public string nextInstruction;
 
     void Update()
     {
@@ -19,13 +20,16 @@ public class CheckQuizCompletion : MonoBehaviour
             }
         }
 
+
         // Si todos los quizzes están completos, finaliza la instrucción actual e inicializa la siguiente
         if (allQuizzesCompleted)
         {
-            if (instructionObject != null)
+            if (instructionObject != null && instructionObject.GetCountOfUnanswered() > 0)
             {
                 instructionObject.finishInstruction();
                 instructionObject.setNextInstructions();
+
+                this.enabled = false;
             }
         }
     }

@@ -35,7 +35,8 @@ public class ActivateQuiz : MonoBehaviour
 
             if (!quizPanelActive)
             {
-                StartCoroutine(ActivateQuizWithDelay());
+                quizPanel.SetActive(true);
+                quizPanelActive = true;
             }
         }
         else
