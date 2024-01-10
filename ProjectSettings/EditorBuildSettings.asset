@@ -9,10 +9,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: 20ccbe202774f744ab6feaa30dc0539d
   - enabled: 1
-    path: Assets/Scenes/Forklift.unity
+    path: Assets/Scenes/Forklift - Storage.unity
     guid: ac5953688aaf54643a53bea3c899f845
   - enabled: 1
-    path: Assets/Scenes/Crane.unity
+    path: Assets/Scenes/Overhead crane - Slabs.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/Clean.unity

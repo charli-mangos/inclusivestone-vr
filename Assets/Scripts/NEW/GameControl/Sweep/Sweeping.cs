@@ -8,14 +8,20 @@ public class Sweeping : MonoBehaviour
     private int sweepCount = 0; // Contador de barridos  
     public int sweepThreshold = 5; // Número 'x' de veces que se debe barrer  
     public SweepManager gameManager; // Referencia al administrador de juego  
+    public string typeOfResiduo;
 
-    private void OnTriggerEntered(Collider other)
+    private void OnCollisionEnter(Collision other)
     {
         // Verifica si el objeto colisionado tiene la etiqueta correcta  
-        if (other.gameObject.tag == "Sweep")
+        if (other.gameObject.tag == typeOfResiduo)
         {
+            Debug.Log("Entró");
+
             // Activa el sistema de partículas  
-            dustParticles.Play();
+            if(dustParticles != null)
+            {
+                dustParticles.Play();
+            }
 
             // Incrementa el contador de barridos  
             sweepCount++;

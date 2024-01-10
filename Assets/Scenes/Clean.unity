@@ -174181,47 +174181,47 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 3f51e6307dc69c945a0c6a71c8c6dc9c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.144
+      value: 1.3305978
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3f51e6307dc69c945a0c6a71c8c6dc9c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.025
+      value: 0.052584976
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3f51e6307dc69c945a0c6a71c8c6dc9c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -46.988
+      value: -46.735535
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3f51e6307dc69c945a0c6a71c8c6dc9c,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.90812343
+      value: 0.87124324
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3f51e6307dc69c945a0c6a71c8c6dc9c,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: -0.03661884
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3f51e6307dc69c945a0c6a71c8c6dc9c,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.41870254
+      value: -0.48905194
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3f51e6307dc69c945a0c6a71c8c6dc9c,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.020555124
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3f51e6307dc69c945a0c6a71c8c6dc9c,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -4.814
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3f51e6307dc69c945a0c6a71c8c6dc9c,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -49.505
+      value: -58.613
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3f51e6307dc69c945a0c6a71c8c6dc9c,
         type: 3}
@@ -206656,8 +206656,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1254726780}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: 0.34641477, z: -0, w: 0.9380815}
+  m_LocalPosition: {x: 0, y: 0, z: -211}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 711851642}
@@ -206665,10 +206665,10 @@ RectTransform:
   - {fileID: 1691850196}
   m_Father: {fileID: 1522398393}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 40.536, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 564, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1254726782
@@ -276617,7 +276617,7 @@ MonoBehaviour:
   prefabSignal: {fileID: 5282553403783589234, guid: 7c2fc177c0949674c9d56c4a5b7e4e10,
     type: 3}
   missionCanvas: {fileID: 755895968}
-  missionTutorial: {fileID: 0}
+  missionTutorial: {fileID: 977918737}
   finMissionPanel: {fileID: 1709008822}
   slider: {fileID: 1077979772}
   nextMissionTittle: 
@@ -299331,8 +299331,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1819179313}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: 0.34641477, z: -0, w: 0.9380815}
+  m_LocalPosition: {x: 0, y: 0, z: -211}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2002402986}
@@ -299340,10 +299340,10 @@ RectTransform:
   - {fileID: 306907468}
   m_Father: {fileID: 1522398393}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 40.536, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 564, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1819179315
@@ -356394,6 +356394,7 @@ GameObject:
   - component: {fileID: 543450651936939941}
   - component: {fileID: 3469287837934342144}
   - component: {fileID: 1711813855215625418}
+  - component: {fileID: 919132147730056480}
   - component: {fileID: 24785424}
   m_Layer: 0
   m_Name: Splat1
@@ -356402,6 +356403,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &919132147730056480
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147730056479}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.23822097, y: 0.003355679, z: 0.1560508}
+  m_Center: {x: 0, y: -9.313226e-10, z: 0.00000023841858}
 --- !u!1 &919132147901900825
 GameObject:
   m_ObjectHideFlags: 0
@@ -356413,6 +356427,7 @@ GameObject:
   - component: {fileID: 543450651639018147}
   - component: {fileID: 3469287837703798022}
   - component: {fileID: 1711813855052171724}
+  - component: {fileID: 919132147901900827}
   - component: {fileID: 919132147901900826}
   m_Layer: 0
   m_Name: Splat2
@@ -356437,6 +356452,19 @@ MonoBehaviour:
   quizPanel: {fileID: 2052082930}
   gameController: {fileID: 1507411092}
   activationDistance: 2
+--- !u!65 &919132147901900827
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147901900825}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2276991, y: 0.0036699506, z: 0.17830479}
+  m_Center: {x: 0, y: 0, z: -0.00000023841858}
 --- !u!1 &919132147953432288
 GameObject:
   m_ObjectHideFlags: 0
@@ -356449,6 +356477,7 @@ GameObject:
   - component: {fileID: 3469287837618709503}
   - component: {fileID: 1711813854965028661}
   - component: {fileID: 919132147953432289}
+  - component: {fileID: 919132147953432291}
   - component: {fileID: 919132147953432290}
   m_Layer: 0
   m_Name: Splat4
@@ -356487,6 +356516,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 1149339258207356573, guid: 0daa77176a7a9434c8ed911278bcc118, type: 3}
+--- !u!65 &919132147953432291
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147953432288}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.23822097, y: 0.003355679, z: 0.1560508}
+  m_Center: {x: 0, y: -9.313226e-10, z: 0.00000023841858}
 --- !u!1 &919132148066194692
 GameObject:
   m_ObjectHideFlags: 0
@@ -356498,6 +356540,7 @@ GameObject:
   - component: {fileID: 543450652539408318}
   - component: {fileID: 3469287838671945755}
   - component: {fileID: 1711813854608962769}
+  - component: {fileID: 919132148066194694}
   - component: {fileID: 919132148066194693}
   m_Layer: 0
   m_Name: Splat3
@@ -356522,6 +356565,19 @@ MonoBehaviour:
   quizPanel: {fileID: 665948560}
   gameController: {fileID: 1507411092}
   activationDistance: 2
+--- !u!65 &919132148066194694
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148066194692}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.22769919, y: 0.0036699509, z: 0.17830487}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &919132149020340871
 GameObject:
   m_ObjectHideFlags: 0
@@ -360880,6 +360936,7 @@ GameObject:
   - component: {fileID: 2753157691177495154}
   - component: {fileID: 3959513804013950708}
   - component: {fileID: 3959513804013950707}
+  - component: {fileID: 3959513804013950710}
   - component: {fileID: 3959513804013950709}
   m_Layer: 0
   m_Name: broom_grp
@@ -361053,9 +361110,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 3959513804013950706}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73c93cc7dc1f1374b96b6d4eedfc3762, type: 3}
+  m_Script: {fileID: 11500000, guid: e3df5aa99791a334ba853a19fb413ecc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dustParticles: {fileID: 883681947}
+  sweepThreshold: 5
+  gameManager: {fileID: 1805309358}
+  typeOfResiduo: Sweep
+--- !u!65 &3959513804013950710
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3959513804013950706}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.035, y: 0.02, z: 0.005}
+  m_Center: {x: -0.022, y: 0.162, z: 0.022}
 --- !u!23 &3983243507186739846
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -361761,7 +361835,6 @@ GameObject:
   - component: {fileID: 8928977760504240056}
   - component: {fileID: 4435275667904552571}
   - component: {fileID: 4435275667904552558}
-  - component: {fileID: 4435275667904552559}
   m_Layer: 0
   m_Name: mop_grp
   m_TagString: Hangable
@@ -361909,18 +361982,6 @@ MonoBehaviour:
   - {fileID: 674519275}
   twoHandRotationType: 2
   snapToSecond: 0
---- !u!114 &4435275667904552559
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4435275667904552557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73c93cc7dc1f1374b96b6d4eedfc3762, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &4435275667904552571
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -362992,6 +363053,7 @@ GameObject:
   - component: {fileID: 4005192928802210758}
   - component: {fileID: 382721635208202850}
   - component: {fileID: 8136311547551074283}
+  - component: {fileID: 5138378142597908151}
   - component: {fileID: 5138378142597908150}
   m_Layer: 0
   m_Name: Residuo Piedras
@@ -363016,6 +363078,19 @@ MonoBehaviour:
   quizPanel: {fileID: 286919880}
   gameController: {fileID: 1507411092}
   activationDistance: 2
+--- !u!65 &5138378142597908151
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5138378142597908149}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.015582244, y: 0.016054677, z: 0.0013607345}
+  m_Center: {x: -0.0003801291, y: -0.0005942023, z: 0.00030340138}
 --- !u!4 &5160534673551806840
 Transform:
   m_ObjectHideFlags: 0
@@ -363528,6 +363603,7 @@ GameObject:
   - component: {fileID: 8380313790741297057}
   - component: {fileID: 8960852238791722288}
   - component: {fileID: 5601349665341968266}
+  - component: {fileID: 5610457410104916654}
   - component: {fileID: 5610457410104916653}
   m_Layer: 0
   m_Name: MopBroomv3:polySurface1
@@ -363548,9 +363624,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3df5aa99791a334ba853a19fb413ecc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dustParticles: {fileID: 0}
-  sweepThreshold: 3
+  dustParticles: {fileID: 883681947}
+  sweepThreshold: 5
   gameManager: {fileID: 1805309358}
+  typeOfResiduo: Scrub
+--- !u!65 &5610457410104916654
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5610457410104916652}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.025557894, y: 0.032798145, z: 0.026611708}
+  m_Center: {x: 0.012174666, y: 0.027914157, z: -0.0077880984}
 --- !u!4 &5633877323245952689
 Transform:
   m_ObjectHideFlags: 0
@@ -364047,7 +364137,6 @@ GameObject:
   - component: {fileID: 7216329182620329669}
   - component: {fileID: 2954507436902782679}
   - component: {fileID: 5992442332657947348}
-  - component: {fileID: 5992442332657947349}
   m_Layer: 0
   m_Name: mophead3:polySurface1
   m_TagString: Untagged
@@ -364070,19 +364159,7 @@ MonoBehaviour:
   dustParticles: {fileID: 883681947}
   sweepThreshold: 5
   gameManager: {fileID: 1805309358}
---- !u!65 &5992442332657947349
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5992442332657947347}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.0315337, y: 0.015773932, z: 0.0028826247}
-  m_Center: {x: -0.02130269, y: 0.16302374, z: 0.022103349}
+  typeOfResiduo: 
 --- !u!1 &6017884113120572408
 GameObject:
   m_ObjectHideFlags: 0

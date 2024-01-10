@@ -98,22 +98,23 @@ crane_repeat=Repite el mismo proceso para 2 tablas más.
 ----------------------------------------------------------------------------------------------
 
 
-//CLEAN
+//CLEANING
 //Title and description
-clean=Operario de limpieza y gestión de residuos
+clean=Operario de limpieza
 clean_desc= Consiste en una serie de simulaciones prácticas que permitirán a los usuarios perfeccionar sus técnicas y procesos, asegurando un entorno de trabajo más limpio y seguro, al tiempo que contribuyen a la reducción del impacto ambiental de la fábrica de piedra natural.
 
 //Intro
 clean_intro1=Bienvenido a la práctica de operario de limpieza.
-clean_intro2=En esta sección los usuarios aprenderán los conceptos clave, como la identificación de áreas prioritarias de limpieza, la selección de productos y equipos de limpieza adecuados, así como las pautas para el manejo de residuos de manera segura y sostenible.
+clean_intro2=En esta sección los usuarios aprenderán los conceptos clave, como la identificación de áreas prioritarias de limpieza, así como la selección de productos y equipos de limpieza adecuados.
 
-//Mission 1 Recogida de residuos
+//Mission Recogida de residuos
 clean_mis1=Limpieza del espacio de trabajo
 clean_mis1_info1=El objetivo de este entrenamiento es realizar las tareas de limpieza de la fábrica de manera correcta.
 
 clean_mis1_desc1=Acércate a cada uno de los diferentes residuos que puedes encontrar en el espacio de trabajo y decide que hacer con ellos.
 clean_mis1_desc2=Recuerda que puedes utilizar el botón de Grip (gatillo del dedo corazón) de cualquiera de los mandos para soltar el carro.
 
+//Quizes
 clean_quiz_fact=¿Qué debes hacer con este tipo de residuo?
 clean_quiz_option1=Avisar a un compañero para que lo recoja con equipo especializado. 
 clean_quiz_option2=Al ser residuo líquido, recogerlo con la fregona. 
@@ -123,7 +124,8 @@ clean_mis1_2=Recoge los residuos
 clean_mis1_desc3=Coge la escoba o la fregona del carro mediante los botones de Grip (gatillo del dedo corazón) de ambas manos. 
 clean_mis1_desc4=Y trata de recoger con ellas los residuos correspondientes. 
 
-clean_tuto_loc=Acércate al armario de limpieza para recoger los productos y objetos necesarios.
+//Tutorial
+clean_tuto_loc=Acércate al armario de limpieza para recoger los EPI necesarios.
 clean_tuto1=Abre el armario de limpieza. 
 clean_tuto1_info1=Para ello, acerca la mano al pomo de la puerta, utiliza el botón de Grip (gatillo del dedo corazón) de cualquiera de los mandos y tira hacia ti. 
 clean_tuto2=Selecciona los EPI. 
@@ -137,22 +139,33 @@ clean_tuto4=Ve a la zona de trabajo
 clean_tuto4_info1=Utiliza la herramienta de teletransporte para ir a la zona de trabajo de la planta de roca natural. 
 clean_tuto4_info2=Encuentra la señal para continuar con la tarea de limpieza. 
 
-clean_mis2=Gestión de residuos
-clean_mis2_info1=El objetivo de este entrenamiento es desechar los residuos de manera correcta
-
-
 ----------------------------------------------------------------------------------------------
 
 
-//SITUATION 4
+//WASTE MANAGEMENT
 //Title and description
-cnc=Operario de CNC
-cnc_desc=Esta sección permitirá perfeccionar las habilidades y procesos de los usuarios, asegurando una operación eficiente y segura de las máquinas CNC, lo que a su vez garantiza la calidad y productividad en la producción de piedra natural.
+waste=Gestión de residuos
+waste_desc=La gestión de residuos en una planta de roca natural es un proceso clave que implica una serie de simulaciones prácticas detalladas. Estas simulaciones están diseñadas para ayudar a los usuarios a perfeccionar sus técnicas y procesos, lo que resulta en una gestión de residuos más eficiente y eficaz. El manejo adecuado de los residuos no solo garantiza un entorno de trabajo más limpio y seguro para todos los empleados, sino que también juega un papel crucial en la reducción del impacto ambiental de la fábrica de piedra natural. A través de la implementación de técnicas de gestión de residuos efectivas y sostenibles, los usuarios pueden contribuir significativamente a la preservación del medio ambiente.
 
 //Intro
-cnc_intro1=Bienvenido a la práctica de operario de CNC.
-cnc_intro2=Este entrenamiento abordará aspectos críticos de la seguridad en la operación de máquinas CNC, incluyendo el control de riesgos y el mantenimiento preventivo
+waste_intro1=Bienvenido a la práctica gestión de residuos.
+waste_intro2=En esta sección los usuarios aprenderán los conceptos clave, como la selección de productos y equipos de limpieza adecuados, así como las pautas para el manejo de residuos de manera segura y sostenible.
 
+//Mission Recogida de residuos
+waste_mis1=Gestión de residuos
+waste_mis1_info1=El objetivo de este entrenamiento es realizar una correcta organización y depósito de los residuos que se generan en la planta de roca natural. 
+
+//Tutorial
+waste_tuto_loc=Acércate al armario de limpieza para recoger los EPI necesarios.
+waste_tuto1=Abre el armario de limpieza. 
+waste_tuto1_info1=Para ello, acerca la mano al pomo de la puerta, utiliza el botón de Grip (gatillo del dedo corazón) de cualquiera de los mandos y tira hacia ti. 
+waste_tuto2=Selecciona los EPI. 
+waste_tuto2_info1=Agarra los EPI que necesitarás para realizar la limpieza de una manera segura. Recuerda que necesitarás los guantes de limpieza, las gafas de seguridad y la máscara respiratoria. 
+waste_tuto2_info2=Para ello, acerca la mano al objeto y presiona el botón de Grip (gatillo del dedo corazón) de cualquiera de las dos manos.  
+waste_tuto2_selec=Objetos seleccionados:
+waste_tuto4=Encuentra la siguiente tarea
+waste_tuto4_info1=Utiliza la herramienta de teletransporte para encontrar la siguiente tarea. 
+waste_tuto4_info2=Encuentra la señal para continuar con la tarea de gestión de residuos. 
 
 -----------------------------------------------------------------------------------------
 
