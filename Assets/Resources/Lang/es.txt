@@ -6,6 +6,7 @@ menu=Menu principal
 //Buttons
 continue=Continuar
 start=Empezar
+check=Comprobar
 
 //General
 congrats=¡Enhorabuena!
@@ -13,7 +14,7 @@ completed=Has completado la misión con éxito.
 go_menu=Volver al menú inicial de selección de escenas.
 controls=Controles
 try_again=Intentar de nuevo
-fail_mission=Esa no es la respuesta correcta.
+fail_mission=Eso no es correcto.
 completed_quest=Esa es la respuesta correcta.
 follow_steps=Para ello, sigue los pasos que aparecerán en los paneles.
 restart=Restart
@@ -152,8 +153,31 @@ waste_intro1=Bienvenido a la práctica gestión de residuos.
 waste_intro2=En esta sección los usuarios aprenderán los conceptos clave, como la selección de productos y equipos de limpieza adecuados, así como las pautas para el manejo de residuos de manera segura y sostenible.
 
 //Mission Recogida de residuos
-waste_mis1=Gestión de residuos
-waste_mis1_info1=El objetivo de este entrenamiento es realizar una correcta organización y depósito de los residuos que se generan en la planta de roca natural. 
+waste_desc1=Gestión de residuos
+waste_desc2=El objetivo de este entrenamiento es realizar una correcta organización y depósito de los residuos que se generan en la planta de roca natural. 
+
+waste_mis1=Ordene los productos
+waste_mis1_desc1=Observa la estantería de la derecha y coloca los productos del suelo en la zona que corresponda. 
+waste_mis1_desc2=Para agarrar los productos, acerca la mano al objeto y presiona el botón de Grip (gatillo del dedo corazón) de cualquiera de las dos manos.  
+waste_mis1_check=Comprobando el orden...
+waste_mis1_wrong=Así no se ordenabn los productos químicos, podría ser peligroso. 
+waste_mis1_right1=¡Así se hace! Da gusto mirar la estantería. 
+waste_mis1_right2=Ahora vuelve a la zona inicial para terminar la tarea. 
+
+waste_mis2=Gestión de residuos
+waste_mis2_desc1=Acércate a cada uno de los diferentes residuos que puedes encontrar y decide que hacer con ellos.
+waste_mis2_desc2=Aparecerá un panel de pregunta, elige la opción que creas correspondiente.
+
+waste_mis2_2=Deposita los residuos
+waste_mis2_desc3=Agarra los residuos que haya que desechar y llévalos al contenedor correspondiente. 
+waste_mis2_desc4=Para agarrar, acerca la mano al objeto y presiona el botón de Grip (gatillo del dedo corazón) de cualquiera de las dos manos.  
+waste_mis2_desc5=Los contenedores de basura los puedes encontrar en el exterior, al salir por la puerta que queda a la izquierda del mueble de los equipos EPI. 
+
+
+//Quizes
+waste_quiz_fact=¿Qué debes hacer con este tipo de residuo?
+waste_quiz_option1=Avisar a un compañero para que lo recoja con equipo especializado. 
+waste_quiz_option2=Tirarlo al contenedor correspondiente. 
 
 //Tutorial
 waste_tuto_loc=Acércate al armario de limpieza para recoger los EPI necesarios.

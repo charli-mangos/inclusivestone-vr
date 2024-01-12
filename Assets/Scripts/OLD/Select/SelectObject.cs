@@ -23,6 +23,8 @@ public class SelectObject : MonoBehaviour
     private bool fail;
     private bool finished;
 
+    public Mission initMission;
+
     void Start()
     {
         finished = false;
@@ -149,6 +151,11 @@ public class SelectObject : MonoBehaviour
 
         ins.finishInstruction();
         ins.setNextInstructions();
+
+        if(initMission != null)
+        {
+            initMission.initMission();
+        }
 
         this.enabled = false;
     }

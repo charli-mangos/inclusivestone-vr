@@ -4989,6 +4989,7 @@ MonoBehaviour:
   quizPanel: {fileID: 232088116}
   gameController: {fileID: 1507411092}
   activationDistance: 2
+  actualMission: {fileID: 1675704748}
 --- !u!64 &24789135
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -85823,6 +85824,7 @@ MonoBehaviour:
   quizPanel: {fileID: 966021773}
   gameController: {fileID: 1507411092}
   activationDistance: 2
+  actualMission: {fileID: 1675704748}
 --- !u!1 &516264636
 GameObject:
   m_ObjectHideFlags: 0
@@ -142114,6 +142116,7 @@ MonoBehaviour:
   quizPanel: {fileID: 1235385013}
   gameController: {fileID: 1507411092}
   activationDistance: 2
+  actualMission: {fileID: 0}
 --- !u!1 &853488733
 GameObject:
   m_ObjectHideFlags: 0
@@ -360165,6 +360168,7 @@ MonoBehaviour:
   workerAnimator: {fileID: 0}
   highlightColor: {r: 1, g: 1, b: 1, a: 1}
   notSelectedColor: {r: 0.5372549, g: 0.5372549, b: 0.5372549, a: 1}
+  initMission: {fileID: 0}
 --- !u!1 &102489929083367406
 GameObject:
   m_ObjectHideFlags: 0
@@ -361757,6 +361761,7 @@ MonoBehaviour:
   quizPanel: {fileID: 2052082930}
   gameController: {fileID: 1507411092}
   activationDistance: 2
+  actualMission: {fileID: 1675704748}
 --- !u!65 &919132147901900827
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -361807,6 +361812,7 @@ MonoBehaviour:
   quizPanel: {fileID: 1064594409}
   gameController: {fileID: 1507411092}
   activationDistance: 2
+  actualMission: {fileID: 1675704748}
 --- !u!64 &919132147953432290
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -361870,6 +361876,7 @@ MonoBehaviour:
   quizPanel: {fileID: 665948560}
   gameController: {fileID: 1507411092}
   activationDistance: 2
+  actualMission: {fileID: 1675704748}
 --- !u!65 &919132148066194694
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -368383,6 +368390,7 @@ MonoBehaviour:
   quizPanel: {fileID: 286919880}
   gameController: {fileID: 1507411092}
   activationDistance: 2
+  actualMission: {fileID: 1675704748}
 --- !u!65 &5138378142597908151
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -125,7 +125,10 @@ public class Mission : MonoBehaviour
         }
 
         //Finish panel
-        finMissionPanel.SetActive(true);
+        if(finMissionPanel != null)
+        {
+            finMissionPanel.SetActive(true);
+        }
 
         //Se destruye el botón de la mission completada
         if(FindDescendantByNameRecursive(finMissionPanel.transform, tittle))

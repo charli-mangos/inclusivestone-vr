@@ -8,6 +8,8 @@ public class ActivateQuiz : MonoBehaviour
     public Transform gameController;  // Asigna el objeto GameController en el Inspector
     public float activationDistance = 1.0f;
 
+    public GameObject actualMission;
+
     private bool quizPanelActive = false;
 
     private void Start()
@@ -19,7 +21,8 @@ public class ActivateQuiz : MonoBehaviour
     {
         float distanceToGameController = Vector3.Distance(transform.position, gameController.position);
 
-        if (distanceToGameController < activationDistance && !quizScript.panelCompleted)
+
+        if (distanceToGameController < activationDistance && !quizScript.panelCompleted && actualMission.activeSelf)
         {
             // Verificar si hay algún otro panel de quiz activo
             MultipleSelectionQuiz[] allQuizzes = FindObjectsOfType<MultipleSelectionQuiz>();
