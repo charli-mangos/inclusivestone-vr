@@ -11,6 +11,8 @@ public class CollectorObjects : MonoBehaviour
 
     public bool isCompleted = false;
 
+    public CollectionManager collection;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,6 +42,8 @@ public class CollectorObjects : MonoBehaviour
             if (uncollected.Count == 0)
             {
                 isCompleted = true;
+
+                collection.checkIfCompleted();
             }
         }
     }

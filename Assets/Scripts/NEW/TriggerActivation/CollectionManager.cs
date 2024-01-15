@@ -23,23 +23,30 @@ public class CollectionManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    public void checkIfCompleted()
     {
-        foreach(var col in uncompleted)
-        {
-            if (col.isCompleted)
-            {
-                uncompleted.Remove(col);
-            }
-            else
-            {
-                finished = false;
-            }
-        }
 
-        if(finished == true)
+        if(uncompleted.Count > 0)
         {
-            gameController.finishMission();
+            foreach (var col in uncompleted)
+            {
+                if (!col.isCompleted)
+                {
+                    finished = false;
+                }
+                else
+                {
+                    Debug.Log("Completatis");
+                }
+
+            }
+
+            if (finished == true)
+            {
+                Debug.Log("Se limpio");
+                gameController.finishMission();
+            }
+
         }
     }
 }

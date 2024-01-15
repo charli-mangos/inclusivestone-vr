@@ -6,6 +6,8 @@ public class CheckQuizCompletion : MonoBehaviour
     public Instructions instructionObject;   // Asigna el objeto Instructions en el Inspector
     //public string nextInstruction;
 
+    public GameController gameController; 
+
     void Update()
     {
         // Verifica si todos los quizzes tienen panelCompleted en true
@@ -26,8 +28,16 @@ public class CheckQuizCompletion : MonoBehaviour
         {
             if (instructionObject != null && instructionObject.GetCountOfUnanswered() > 0)
             {
-                instructionObject.finishInstruction();
-                instructionObject.setNextInstructions();
+                if(gameController != null)
+                {
+                    gameController.finishMission();
+                }
+                else
+                {
+
+                    instructionObject.finishInstruction();
+                    instructionObject.setNextInstructions();
+                }
 
                 this.enabled = false;
             }

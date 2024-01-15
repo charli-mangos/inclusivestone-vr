@@ -6,16 +6,18 @@ menu=Main menu
 //Buttons
 continue=Continue
 start=Start
-restart=Restart
+check=Check
 
 //General
 congrats=Congratulations!
 completed=You have successfully completed the mission.
-go_menu=Return to the initial scene selection menu.
+go_menu=Back to the initial scene selection menu.
 controls=Controls
-try_again=Try again
-fail_mission=This is not the correct answer.
-follow_steps=To do so, follow the steps that will appear on the panels.
+try_again=Try again.
+fail_mission=That is not correct.
+completed_quest=That is the correct answer.
+follow_steps=Follow the steps that will appear in the panels.
+restart=Restart
 
 //Locomotion tutorial
 locomotion=Teleport
@@ -36,7 +38,6 @@ fork_intro2=This experience includes challenges such as loading and unloading st
 //Mission 1
 fork_mis1=Freight transport
 fork_mis1_info1=The objective of this mission is to carry 3 pallets from the processing plant to the warehouse.
-
 fork_mis1_info2=In the warehouse, you will have to arrange the pallets inside the lighted area.
 
 //Mission 2
@@ -100,36 +101,95 @@ crane_repeat=Repeat the same process for 2 more slabs.
 
 //CLEAN
 //Title and description
-clean=Cleaning and waste management operator
-clean_desc=It consists of a series of practical simulations that will allow users to perfect their techniques and processes, ensuring a cleaner and safer working environment, while contributing to the reduction of the environmental impact of the natural stone factory.
+clean=Cleaning operator
+clean_desc=Consists of a series of practical simulations that will allow users to perfect their techniques and processes, ensuring a cleaner and safer working environment, while contributing to the reduction of the environmental impact of the natural stone factory.
 
 //Intro
 clean_intro1=Welcome to the cleaning operator practice.
-clean_intro2=In this section users will learn key concepts such as identifying priority areas for cleaning, selecting appropriate cleaning products and equipment, as well as guidelines for safe and sustainable waste management.
+clean_intro2=n this section users will learn key concepts, such as identifying priority areas for cleaning, as well as selecting appropriate cleaning products and equipment.
 
 //Mission 1 Recogida de residuos
 clean_mis1=Workspace cleaning
-clean_mis1_info1=The objective of this training is to perform the factory cleaning tasks in a correct manner.
+clean_mis1_info1=The objective of this training is to perform factory cleaning tasks correctly.
 
-//Mission 2 Ordenar los productos quimicos
-clean_mis2=Waste management
-clean_mis2_info1=The objective of this training is to dispose of waste correctly.
+clean_mis1_desc1=Approach each of the different waste you can find in the workspace and decide what to do with it.
+clean_mis1_desc2=Remember that you can use the Grip button (middle finger trigger) of any of the controllers to release the cart.
 
-//Mission 3 Gestión de residuos
+//Quizes
+clean_quiz_fact=What should you do with this type of waste?
+clean_quiz_option1=Avise a colleague to pick it up with specialized equipment. 
+clean_quiz_option2=As it is liquid waste, pick it up with a mop.
+clean_quiz_option3=Clean up with broom if solid waste.
+
+clean_mis1_2=Collect the waste.
+clean_mis1_desc3=Pick up the broom or mop from the trolley using the Grip buttons (middle finger trigger) on both hands. 
+clean_mis1_desc4=And try to pick up the corresponding waste with them. 
 
 //Tutorial
-clean_tuto1=Go to the cleaning cupboard to collect the necessary products and items.
+clean_tuto_loc=Go to the cleaning cabinet to collect the necessary PPE.
+clean_tuto1=Open the cleaning cabinet. 
+clean_tuto1_info1=To do this, reach your hand to the doorknob, use the Grip button (middle finger trigger) on any of the knobs and pull towards you. 
+clean_tuto2=Select the PIDs. 
+clean_tuto2_info1=Grab the PPE you will need to perform the cleaning in a safe manner. Remember that you will need the cleaning gloves, safety glasses and respiratory mask. 
+clean_tuto2_info2=To do this, bring your hand close to the object and press the Grip button (middle finger trigger) of either hand.  
+clean_tuto2_selec=Selected objects:
+clean_tuto3=Carry the cleaning cart.
+clean_tuto3_info1=Come to the trolley grips and use the Grip button, to grab the trolley to go with you. 
+clean_tuto3_info2=To release the cart, press the same Grip button. 
+clean_tuto4=Go to the work area.
+clean_tuto4_info1=Use the teleport tool to go to the work zone of the natural rock plant. 
+clean_tuto4_info2=Find the signal to continue the cleaning task. 
+
+
 ----------------------------------------------------------------------------------------------
 
-
-//SITUATION 4
+//WASTE MANAGEMENT
 //Title and description
-cnc=CNC Operator
-cnc_desc=This section will allow to perfect the skills and processes of the users, ensuring an efficient and safe operation of the CNC machines, which in turn guarantees quality and productivity in the production of natural stone.
+waste=Waste management
+waste_desc=Waste management in a natural rock plant is a key process that involves a series of detailed hands-on simulations. These simulations are designed to help users refine their techniques and processes, resulting in more efficient and effective waste management. Proper waste management not only ensures a cleaner and safer working environment for all employees, but also plays a crucial role in reducing the environmental impact of the natural stone factory. Through the implementation of effective and sustainable waste management techniques, users can contribute significantly to the preservation of the environment.
+
 
 //Intro
-cnc_intro1=Welcome to the job of CNC Operator.
-cnc_intro2=This training will address critical safety aspects of CNC machine operation, including hazard control and preventive maintenance.
+waste_intro1=Welcome to waste management practice.
+waste_intro2=In this section users will learn key concepts, such as the selection of appropriate cleaning products and equipment, as well as guidelines for safe and sustainable waste management.
+
+//Mission Waste collection
+waste_desc1=Waste management
+waste_desc2=The objective of this training is to perform a correct organization and deposit of the waste generated in the natural rock plant. 
+
+waste_mis1=Order the products
+waste_mis1_desc1=Observe the shelf on the right and place the products on the floor in the appropriate area. 
+waste_mis1_desc2=To grab the products, bring your hand close to the object and press the Grip button (middle finger trigger) of either hand.  
+waste_mis1_check=Checking the order...
+waste_mis1_wrong=This is not the way to order the chemicals, it could be dangerous. 
+waste_mis1_right1=That's the way to do it! It's nice to look at the shelf. 
+waste_mis1_right2=Now go back to the starting area to finish the task. 
+
+waste_mis2=Waste management
+waste_mis2_desc1=Go to each of the different waste you can find and decide what to do with it.
+waste_mis2_desc2=A question panel will appear, choose the option you think is appropriate.
+
+waste_mis2_2=Deposit the waste.
+waste_mis2_desc3=Grab the waste to be disposed of and take it to the corresponding container. 
+waste_mis2_desc4=To grab, bring your hand close to the object and press the Grip button (middle finger trigger) of either hand.  
+waste_mis2_desc5=The waste containers can be found outside, when exiting through the door to the left of the EPI equipment cabinet. 
+
+//Quizes
+waste_quiz_fact=What should you do with this type of waste?
+waste_quiz_option1=Avise a colleague to pick it up with specialized equipment. 
+waste_quiz_option2=Dump it in the appropriate container. 
+
+//Tutorial
+waste_tuto_loc=Approach the cleanup closet to collect the necessary PPE.
+waste_tuto1=Open the cleaning cabinet. 
+waste_tuto1_info1=To do this, reach your hand to the doorknob, use the Grip button (middle finger trigger) on any of the knobs and pull towards you. 
+waste_tuto2=Select the PIDs. 
+waste_tuto2_info1=Grab the PPE you will need to perform the cleaning safely. Remember that you will need the cleaning gloves, safety glasses and respiratory mask. 
+waste_tuto2_info2=To do this, bring your hand close to the object and press the Grip button (middle finger trigger) on either hand.  
+waste_tuto2_selec=Selected objects:
+waste_tuto4=Finds the next task.
+waste_tuto4_info1=Use the teleport tool to find the next task. 
+waste_tuto4_info2=Finds the signal to continue the waste management task. 
 
 
 -----------------------------------------------------------------------------------------

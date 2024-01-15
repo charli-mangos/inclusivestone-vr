@@ -128,13 +128,14 @@ public class Mission : MonoBehaviour
         if(finMissionPanel != null)
         {
             finMissionPanel.SetActive(true);
+
+            //Se destruye el botón de la mission completada
+            if (FindDescendantByNameRecursive(finMissionPanel.transform, tittle))
+            {
+                Destroy(FindDescendantByNameRecursive(finMissionPanel.transform, tittle).gameObject);
+            }
         }
 
-        //Se destruye el botón de la mission completada
-        if(FindDescendantByNameRecursive(finMissionPanel.transform, tittle))
-        {
-            Destroy(FindDescendantByNameRecursive(finMissionPanel.transform, tittle).gameObject);
-        }
 
         if(slider != null)
         {
