@@ -62,7 +62,7 @@ public class CraneController : MonoBehaviour
             {
                 if(power > 0 && !isUp)
                 {
-                    ropes.transform.localScale = ropes.transform.localScale + new Vector3(0, 0, 1f) * (-power * constForce * 0.8f);
+                    ropes.transform.localScale = ropes.transform.localScale + new Vector3(0, 0, 1f) * (-power * constForce * 0.5f);
 
                     foreach (var ele in gancho)
                     {
@@ -73,7 +73,7 @@ public class CraneController : MonoBehaviour
                 }
                 else if (power < 0 && !isDown)
                 {
-                    ropes.transform.localScale = ropes.transform.localScale + new Vector3(0, 0, 1f) * (-power * constForce * 0.8f);
+                    ropes.transform.localScale = ropes.transform.localScale + new Vector3(0, 0, 1f) * (-power * constForce * 0.5f);
 
                     foreach (var ele in gancho)
                     {

@@ -65,7 +65,7 @@ fork_tuto6_info2=Repite el mismo proceso para 2 más.
 
 //CRANE
 //Title and description
-crane=Operario de puente grúa
+crane=Operario de puente grúa - Manejo de tablas
 crane_desc=Esta sección ofrece a los usuarios una experiencia de aprendizaje práctica y segura sobre la operación del puente grúa en la industria de la piedra. La retroalimentación en tiempo real les permitirá mejorar sus habilidades y conocimientos como operadores, promoviendo un manejo más eficiente y seguro de materiales pesados en este sector específico.
 
 //Intro
@@ -194,12 +194,27 @@ waste_tuto4_info2=Encuentra la señal para continuar con la tarea de gestión de
 -----------------------------------------------------------------------------------------
 
 
-//SITUATION 5
+//Crane - Blocks
 //Title and description
-finish=****Nanomaterial fijado en una matriz sólida que se perfora
-finish_desc=****En esta escena, el trabajo consiste en preparar un entorno de construcción para perforar la superficie de piedra revestida con el fin de colocar el cableado eléctrico de las luminarias exteriores.  Centrados en la prevención de riesgos derivados de la generación de nanomateriales.
+block=Operario de puente grúa - Manejo de bloques
+block_desc=Esta sección ofrece a los usuarios una experiencia de aprendizaje práctica y segura sobre la operación del puente grúa en la industria de la piedra. La retroalimentación en tiempo real les permitirá mejorar sus habilidades y conocimientos como operadores, promoviendo un manejo más eficiente y seguro de materiales pesados en este sector específico.
 
 //Intro
-finish_intro1=Bienvenido a la SITUACIÓN 5.
-finish_intro2=****Nanomaterial fijado en una matriz sólida que se perfora.
+block_intro1=Bienvenido a la práctica de operario de grúa
+block_intro2=En este entrenamiento, los usuarios enfrentarán desafíos que implican cargar y descargar materiales pesados, maniobrar con precisión en espacios reducidos y apilar cargas voluminosas utilizando el puente grúa.
+
+//Mission
+block_mis1=Transporte de bloques
+block_mis1_desc=El objetivo de esta misión es desplazar el bloque del camión hasta la plataforma de entrada a la máquina cortabloques.
+
+//Tutorial
+block_tuto1=Acércate al camión mediante la herramienta de teletransporte. 
+block_control=Manejo del puente grúa
+block_tuto2=Utiliza el mando del puente grúa para acercar el gancho hacia la tabla que vayas a desplazar. 
+block_tuto2_1=Pasa por encima de los botones con el cursor para ver que funcion tiene cada uno.
+block_control2=Amarra los tablones con las eslingas
+block_tuto3=Para realizar el eslingado pulsa el botón de Grip (gatillo del dedo corazón) del mando derecho. 
+block_tuto3_1=Es importante tener en cuenta las normas de seguridad con respecto al eslingado y la circulación en zonas donde ocurren elevaciones de cargas. 
+block_tuto_fin=Has conseguido colocar una tabla. 
+block_repeat=Repite el mismo proceso para 2 tablas más.
 

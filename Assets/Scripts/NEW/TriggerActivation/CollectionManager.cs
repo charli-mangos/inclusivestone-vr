@@ -22,11 +22,22 @@ public class CollectionManager : MonoBehaviour
         }
     }
 
+    void Update()
+    {
+        
+        if (uncompleted.Count == 0 && finished == true)
+        {
+            Debug.Log("Se limpio");
+            gameController.finishMission();
+            this.enabled = false;
+        }
+    }
+
     // Update is called once per frame
     public void checkIfCompleted()
     {
 
-        if(uncompleted.Count > 0)
+        if (uncompleted.Count > 0)
         {
             foreach (var col in uncompleted)
             {
@@ -37,16 +48,10 @@ public class CollectionManager : MonoBehaviour
                 else
                 {
                     Debug.Log("Completatis");
+                    uncompleted.Remove(col);
                 }
 
             }
-
-            if (finished == true)
-            {
-                Debug.Log("Se limpio");
-                gameController.finishMission();
-            }
-
         }
     }
 }

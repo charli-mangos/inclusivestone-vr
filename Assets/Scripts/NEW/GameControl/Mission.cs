@@ -98,6 +98,8 @@ public class Mission : MonoBehaviour
 
     IEnumerator FinalizeMission()
     {
+        Debug.Log("Fin " + this.tittle);
+
         if(missionCanvas != null)
         {
             missionCanvas.SetActive(false);
@@ -128,6 +130,8 @@ public class Mission : MonoBehaviour
         if(finMissionPanel != null)
         {
             finMissionPanel.SetActive(true);
+
+            Debug.Log("Tenemos panel");
 
             //Se destruye el botón de la mission completada
             if (FindDescendantByNameRecursive(finMissionPanel.transform, tittle))
