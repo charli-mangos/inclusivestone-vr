@@ -19,6 +19,11 @@ public class AtachTarget : MonoBehaviour
     public float hookSpeed = 5.0f;
     public float pendulumLimit = 10.0f;
 
+    //Valores iniciales de la grúa interior
+    public Vector3 conectedAnchor = new Vector3(-0.0005f, 0.12f, 0.003f);
+    public Vector3 anchor = new Vector3(0f, 0f, 0.5f);
+    public Vector3 axis = new Vector3(0f, 0.1f, 0f);
+
     private GameObject tablaUnit;
 
     void Start()
@@ -129,9 +134,9 @@ public class AtachTarget : MonoBehaviour
 
         // Establece el eje de giro para simular el movimiento pendular
         joint.autoConfigureConnectedAnchor = false;
-        joint.connectedAnchor = new Vector3(-0.0005f, 0.12f, 0.003f);
-        joint.anchor = new Vector3(0f, 0f,0.5f); 
-        joint.axis = new Vector3(0f, 0.1f, 0f);
+        joint.connectedAnchor = conectedAnchor;
+        joint.anchor = anchor;
+        joint.axis = axis;
 
         // Configura los límites del movimiento pendular
         JointLimits limits = new JointLimits();

@@ -869,6 +869,9 @@ MonoBehaviour:
   panelMSG: {fileID: 1051154157}
   hookSpeed: 0.75
   pendulumLimit: 2
+  conectedAnchor: {x: -0.0005, y: 0.12, z: 0.003}
+  anchor: {x: 0, y: 0, z: 0.5}
+  axis: {x: 0, y: 0.1, z: 0}
 --- !u!114 &41339506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73860,7 +73863,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &856042777813492593
 GameObject:
   m_ObjectHideFlags: 0
@@ -78039,6 +78042,7 @@ MonoBehaviour:
   power: 0
   state: None
   constForce: 0.005
+  scaleValue: 0.8
   isDown: 0
   isUp: 0
   audio: {fileID: 0}
@@ -84146,7 +84150,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &7744878812752206159
 MeshRenderer:
   m_ObjectHideFlags: 0

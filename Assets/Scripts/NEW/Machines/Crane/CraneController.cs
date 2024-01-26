@@ -19,7 +19,8 @@ public class CraneController : MonoBehaviour
     public int power = 0;
     public string state = "None";
 
-    public float constForce = 0.01f;
+    public float constForce = 0.05f;
+    public float scaleValue = 0.8f;
 
     private bool isBack = false;
     private bool isFront = false;
@@ -62,7 +63,7 @@ public class CraneController : MonoBehaviour
             {
                 if(power > 0 && !isUp)
                 {
-                    ropes.transform.localScale = ropes.transform.localScale + new Vector3(0, 0, 1f) * (-power * constForce * 0.5f);
+                    ropes.transform.localScale = ropes.transform.localScale + new Vector3(0, 0, 1f) * (-power * constForce * scaleValue);
 
                     foreach (var ele in gancho)
                     {
@@ -73,7 +74,7 @@ public class CraneController : MonoBehaviour
                 }
                 else if (power < 0 && !isDown)
                 {
-                    ropes.transform.localScale = ropes.transform.localScale + new Vector3(0, 0, 1f) * (-power * constForce * 0.5f);
+                    ropes.transform.localScale = ropes.transform.localScale + new Vector3(0, 0, 1f) * (-power * constForce * scaleValue);
 
                     foreach (var ele in gancho)
                     {
