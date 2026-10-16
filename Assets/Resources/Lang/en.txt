@@ -158,7 +158,7 @@ waste_desc1=Waste management
 waste_desc2=The objective of this training is to perform a correct organization and deposit of the waste generated in the natural rock plant. 
 
 waste_mis1=Order the products
-waste_mis1_desc1=Observe the shelf on the right and place the products on the floor in the appropriate area. 
+waste_mis1_desc1=Observe the shelf on the right and move the products from the floor to the appropriate area. 
 waste_mis1_desc2=To grab the products, bring your hand close to the object and press the Grip button (middle finger trigger) of either hand.  
 waste_mis1_check=Checking the order...
 waste_mis1_wrong=This is not the way to order the chemicals, it could be dangerous. 

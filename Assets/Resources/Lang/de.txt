@@ -1,98 +1,221 @@
+// Deutsche Übersetzung aus en.txt - muss von Muttersprachlern geprüft werden
 //MAIN MENU
-lang=Selecciona un lenguaje:
-selected_lang=Lenguaje seleccionado:
-menu_tittle=Menu principal
+lang=Sprache auswählen:
+selected_lang=Ausgewählte Sprache:
+menu=Hauptmenü
 
 //Buttons
-continue=Continuar
-start=Empezar
+continue=Weiter
+start=Starten
+check=Prüfen
 
 //General
-congrats=¡Enhorabuena!
-completed=Has completado la misión con éxito.
-go_menu=Volver al menú inicial de selección de escenas.
+congrats=Herzlichen Glückwunsch!
+completed=Du hast die Mission erfolgreich abgeschlossen.
+go_menu=Zurück zum Menü der Szenenauswahl.
+controls=Steuerung
+try_again=Versuche es noch einmal.
+fail_mission=Das ist nicht richtig.
+completed_quest=Das ist die richtige Antwort.
+follow_steps=Folge den Schritten, die auf den Tafeln erscheinen.
+restart=Neu starten
 
-//Init Info
-intro1=Intenta realizar los pasos con seguridad.
-intro2=Tienes que completar algunas misiones.
-intro3=Para encontrarlas necesitas buscar la siguiente señal:
-intro4=Para moverte por el escenario usa la herramienta de teletransporte. 
-intro5=Esta se activa con el botón principal (A or X).
+//Locomotion tutorial
+locomotion=Teleportieren
+locomotion_desc=Drücke die Taste A oder X, um dich zum beleuchteten Punkt zu teleportieren.
 
 ------------------------------------------------------------------------
 
 
 //FORKLIFT
 //Title and description
-fork=****Uso de sierra con refrigeración por agua para reducir el polvo 
-fork_desc=****En esta situación se va a pavimentar una zona de una casa. Para ello, se va a utilizar una sierra refrigerada por agua para reducir el polvo. El jugador debe realizar los pasos necesarios para utilizar esta herramienta con seguridad.
+fork=Gabelstaplerfahrer
+fork_desc=In diesem Abschnitt lernen die Nutzer praxisnah und sicher, wie man in der Natursteinindustrie einen Gabelstapler bedient. Mit Echtzeit-Feedback sollen die Fähigkeiten und Kenntnisse der Bediener verbessert werden, um schwere Materialien im Natursteinsektor effizienter und sicherer zu handhaben.
 
 //Intro
-fork_intro1=Bienvenido a la práctica de operario de carretilla.
-fork_intro2=****Uso de sierra con refrigeración por agua para reducir el polvo 
+fork_intro1=Willkommen zum Training für Gabelstaplerfahrer.
+fork_intro2=Diese Erfahrung umfasst Herausforderungen wie das Be- und Entladen von Steinmaterial, das Manövrieren auf engem Raum und das Stapeln schwerer Lasten.
 
 //Mission 1
-fork_mis1=Transporte de cargas
-fork_mis1_desc=En esta misón debes llevar cajas desde la zona de acabados al almacen.
-fork_mis1_info1=El objetivo de esta misión es llevar 3 pallets de esta zona al almacen del producto.
-fork_mis1_info2=En el almacen, tendrás que ordenar los pallets dentro de la zona iluminada.
-fork_mis1_fin1=Has conseguido finalizar la misión.
+fork_mis1=Lastentransport
+fork_mis1_info1=Ziel dieser Mission ist es, 3 Paletten vom Verarbeitungsbereich ins Lager zu bringen.
+fork_mis1_info2=Im Lager musst du die Paletten innerhalb des beleuchteten Bereichs abstellen.
 
 //Mission 2
-fork_mis2=Carga de comiones
-fork_mis2_desc=En esta misón debes introducir el producto en los camiones.
+fork_mis2=Beladen des Lkw
+fork_mis2_info1=Ziel dieser Mission ist es, 3 Paletten aus dem Lager in den Lkw zu bringen, damit sie weitertransportiert werden können.
 
+//Tutorial
+fork_tuto1=Beschleunigen
+fork_tuto1_info1=Drücke den Abzug (Zeigefinger) der rechten Hand, um den Gabelstapler zu beschleunigen.
+fork_tuto1_info2=Beachte die Sicherheitsregeln der Arbeitsumgebung, um Unfälle zu vermeiden.
+fork_tuto2=Rückwärts
+fork_tuto2_info1=Drücke den Abzug (Zeigefinger) der linken Hand, um rückwärts zu fahren.
+fork_tuto3=Bremsen
+fork_tuto3_info1=Drücke die Haupttaste (A oder X) mit dem Daumen, um den Gabelstapler zu bremsen.
+fork_tuto4=Lenken
+fork_tuto4_info1=Bewege den Joystick der linken Hand zur Seite, um den Gabelstapler zu lenken.
+fork_tuto4_info2=Beschleunige, um die Lenkung zu testen.
+fork_tuto5=Bedienung des Gabelstaplers
+fork_tuto5_info1=Führe deine Hand zu einem der Hebel unten rechts und drücke die Grip-Taste (Mittelfinger), um den Hebel zu greifen.
+fork_tuto5_info2=Während du einen der Hebel festhältst, bewege den Joystick der linken Hand nach oben und unten, um den Hubmast zu bewegen.
+fork_tuto6_info1=Du hast eine Palette erfolgreich transportiert.
+fork_tuto6_info2=Wiederhole denselben Vorgang für 2 weitere.
 ------------------------------------------------------------------------------------
 
 
-//SITUATION 2
+//CRANE
 //Title and description
-crane=****Aplicación en función del nanoproducto en una fábrica
-crane_desc=****En esta situación, se aplicarán diferentes productos a la piedra natural en la fábrica. Deben tomarse las medidas correctas para evitar poner en peligro el producto y nuestra salud.
+crane=Brückenkranführer
+crane_desc=Dieser Abschnitt bietet den Nutzern eine praxisnahe und sichere Lernerfahrung zur Bedienung von Brückenkranen in der Natursteinindustrie. Echtzeit-Feedback hilft ihnen, ihre Fähigkeiten und Kenntnisse als Bediener zu verbessern, und fördert einen effizienteren und sichereren Umgang mit schweren Materialien in diesem Sektor.
 
 //Intro
-crane_intro1=Bienvenido a la práctica de operario de grúa.
-crane_intro2=****Aplicación en función del nanoproducto en una fábrica
+crane_intro1=Willkommen zum Training für Kranführer
+crane_intro2=In diesem Training stellen sich die Nutzer Herausforderungen wie dem Be- und Entladen schwerer Materialien, dem präzisen Manövrieren auf engem Raum und dem Stapeln sperriger Lasten mit dem Brückenkran.
 
+//Mission
+crane_mis1=Transport von Platten
+crane_mis1_desc=Ziel dieser Mission ist es, 3 Marmorplatten zu einer der beleuchteten Halterungen im hinteren Teil des Lagers zu bringen.
+
+crane_block=Sperrt die Maschine
+crane_blocked=Maschine gesperrt
+crane_start=Aktiviert die Maschine
+crane_up=Hebt den Haken
+crane_down=Senkt den Haken
+crane_north=Bewegt den Motor nach vorne
+crane_south=Bewegt den Motor nach hinten
+crane_east=Bewegt den Motor nach rechts
+crane_west=Bewegt den Motor nach links
+
+//Tutorial
+crane_tuto1=Nähere dich mit dem Teleportationswerkzeug einer der Marmorplatten.
+crane_control=Bedienung des Brückenkrans
+crane_tuto2=Benutze die Steuerung des Brückenkrans, um den Haken zu der Platte zu bewegen, die du transportieren möchtest.
+crane_tuto2_1=Fahre mit dem Cursor über die Tasten, um zu sehen, welche Funktion jede hat.
+crane_control2=Befestige die Platten mit den Anschlagmitteln
+crane_tuto3=Drücke zum Anschlagen die Grip-Taste (Mittelfinger-Abzug) am rechten Controller.
+crane_tuto3_1=Beachte unbedingt die Sicherheitsregeln zum Anschlagen von Lasten und zum Aufenthalt in Bereichen, in denen Lasten gehoben werden.
+crane_tuto_fin=Du hast eine Marmorplatte erfolgreich abgesetzt.
+crane_repeat=Wiederhole denselben Vorgang für 2 weitere Platten.
+----------------------------------------------------------------------------------------------
+
+
+//CLEAN
+//Title and description
+clean=Reinigungskraft
+clean_desc=Besteht aus einer Reihe praktischer Simulationen, mit denen die Nutzer ihre Techniken und Abläufe verbessern können. So wird eine sauberere und sicherere Arbeitsumgebung gewährleistet und gleichzeitig die Umweltbelastung der Natursteinfabrik verringert.
+
+//Intro
+clean_intro1=Willkommen zum Training für Reinigungskräfte.
+clean_intro2=In diesem Abschnitt lernen die Nutzer zentrale Konzepte, etwa wie man vorrangig zu reinigende Bereiche erkennt und geeignete Reinigungsmittel und -geräte auswählt.
+
+//Mission 1 Recogida de residuos
+clean_mis1=Reinigung des Arbeitsbereichs
+clean_mis1_info1=Ziel dieses Trainings ist es, die Reinigungsarbeiten in der Fabrik korrekt durchzuführen.
+
+clean_mis1_desc1=Gehe zu den verschiedenen Abfällen im Arbeitsbereich und entscheide, was mit ihnen zu tun ist.
+clean_mis1_desc2=Denke daran, dass du mit der Grip-Taste (Mittelfinger-Abzug) eines beliebigen Controllers den Wagen loslassen kannst.
+
+//Quizes
+clean_quiz_fact=Was solltest du mit dieser Art von Abfall tun?
+clean_quiz_option1=Einen Kollegen bitten, ihn mit Spezialausrüstung zu beseitigen.
+clean_quiz_option2=Da es sich um flüssigen Abfall handelt, mit einem Wischmopp aufnehmen.
+clean_quiz_option3=Bei festem Abfall mit dem Besen aufkehren.
+
+clean_mis1_2=Sammle den Abfall ein.
+clean_mis1_desc3=Nimm den Besen oder den Wischmopp mit den Grip-Tasten (Mittelfinger-Abzug) beider Hände vom Wagen.
+clean_mis1_desc4=Versuche dann, damit den entsprechenden Abfall aufzunehmen.
+
+//Tutorial
+clean_tuto_loc=Gehe zum Reinigungsschrank, um die nötige PSA zu holen.
+clean_tuto1=Öffne den Reinigungsschrank.
+clean_tuto1_info1=Führe dazu deine Hand zum Türgriff, drücke an einem der Griffe die Grip-Taste (Mittelfinger-Abzug) und ziehe zu dir hin.
+clean_tuto2=Wähle die PSA aus.
+clean_tuto2_info1=Nimm die PSA, die du für eine sichere Reinigung brauchst. Denke daran: Du brauchst Reinigungshandschuhe, eine Schutzbrille und eine Atemschutzmaske.
+clean_tuto2_info2=Führe dazu deine Hand zum Gegenstand und drücke an einer der beiden Hände die Grip-Taste (Mittelfinger-Abzug).
+clean_tuto2_selec=Ausgewählte Gegenstände:
+clean_tuto3=Nimm den Reinigungswagen mit.
+clean_tuto3_info1=Gehe zu den Griffen des Wagens und benutze die Grip-Taste, um den Wagen zu greifen und mitzunehmen.
+clean_tuto3_info2=Um den Wagen loszulassen, drücke dieselbe Grip-Taste.
+clean_tuto4=Gehe zum Arbeitsbereich.
+clean_tuto4_info1=Benutze das Teleportationswerkzeug, um zum Arbeitsbereich der Natursteinanlage zu gelangen.
+clean_tuto4_info2=Suche das Signal, um mit der Reinigungsaufgabe fortzufahren.
 
 
 ----------------------------------------------------------------------------------------------
 
-
-//SITUATION 3
+//WASTE MANAGEMENT
 //Title and description
-clean=****Vertido de polvo de nanomaterial en una matriz líquida para crear una mezcla
-clean_desc=****En esta situación, el usuario tendrá que hacer una mezcla de polvo en una matriz líquida para aplicarla en un entorno de construcción.
+waste=Abfallmanagement
+waste_desc=Das Abfallmanagement in einer Natursteinanlage ist ein zentraler Prozess, der eine Reihe detaillierter praktischer Simulationen umfasst. Diese Simulationen helfen den Nutzern, ihre Techniken und Abläufe zu verfeinern, was zu einem effizienteren und wirksameren Abfallmanagement führt. Ein richtiges Abfallmanagement sorgt nicht nur für eine sauberere und sicherere Arbeitsumgebung für alle Beschäftigten, sondern spielt auch eine entscheidende Rolle bei der Verringerung der Umweltbelastung der Natursteinfabrik. Durch wirksame und nachhaltige Techniken des Abfallmanagements können die Nutzer erheblich zum Umweltschutz beitragen.
+
 
 //Intro
-clean_intro1=Bienvenido a la práctica de operario de limpieza.
-clean_intro2=****Vertido de polvo de nanomaterial en una matriz líquida para crear una mezcla.
+waste_intro1=Willkommen zum Training Abfallmanagement.
+waste_intro2=In diesem Abschnitt lernen die Nutzer zentrale Konzepte, etwa die Auswahl geeigneter Reinigungsmittel und -geräte sowie Richtlinien für ein sicheres und nachhaltiges Abfallmanagement.
 
+//Mission Waste collection
+waste_desc1=Abfallmanagement
+waste_desc2=Ziel dieses Trainings ist es, die in der Natursteinanlage anfallenden Abfälle richtig zu sortieren und zu entsorgen.
 
+waste_mis1=Ordne die Produkte
+waste_mis1_desc1=Sieh dir das Regal rechts an und stelle die Produkte vom Boden in den passenden Bereich.
+waste_mis1_desc2=Um die Produkte zu greifen, führe deine Hand zum Gegenstand und drücke an einer der beiden Hände die Grip-Taste (Mittelfinger-Abzug).
+waste_mis1_check=Ordnung wird geprüft...
+waste_mis1_wrong=So ordnet man Chemikalien nicht, das könnte gefährlich sein.
+waste_mis1_right1=Genau so geht es! Das Regal sieht gut aus.
+waste_mis1_right2=Gehe jetzt zurück zum Startbereich, um die Aufgabe abzuschließen.
 
-----------------------------------------------------------------------------------------------
+waste_mis2=Abfallmanagement
+waste_mis2_desc1=Gehe zu den verschiedenen Abfällen, die du finden kannst, und entscheide, was mit ihnen zu tun ist.
+waste_mis2_desc2=Es erscheint eine Fragetafel. Wähle die Option, die du für richtig hältst.
 
+waste_mis2_2=Entsorge den Abfall.
+waste_mis2_desc3=Greife den zu entsorgenden Abfall und bringe ihn zum passenden Container.
+waste_mis2_desc4=Um zu greifen, führe deine Hand zum Gegenstand und drücke an einer der beiden Hände die Grip-Taste (Mittelfinger-Abzug).
+waste_mis2_desc5=Die Abfallcontainer befinden sich draußen, wenn du durch die Tür links vom PSA-Schrank hinausgehst.
 
-//SITUATION 4
-//Title and description
-cnc=****Nanomaterial aplicado con pistola pulverizadora sobre una superficie de piedra natural
-cnc_desc=****Se trata de preparar una zona de trabajo al aire libre donde se aplicarán los nanomateriales a las superficies de piedra con una pistola pulverizadora. La aplicación tendrá lugar en una piscina y las condiciones ambientales no serán óptimas.
+//Quizes
+waste_quiz_fact=Was solltest du mit dieser Art von Abfall tun?
+waste_quiz_option1=Einen Kollegen bitten, ihn mit Spezialausrüstung zu beseitigen.
+waste_quiz_option2=Ihn im passenden Container entsorgen.
 
-//Intro
-cnc_intro1=Bienvenido a la práctica de operario de cnc.
-cnc_intro2=****Prepare una zona de trabajo al aire libre donde se aplicarán los nanomateriales a las superficies de piedra con una pistola pulverizadora.
-
+//Tutorial
+waste_tuto_loc=Gehe zum Reinigungsschrank, um die nötige PSA zu holen.
+waste_tuto1=Öffne den Reinigungsschrank.
+waste_tuto1_info1=Führe dazu deine Hand zum Türgriff, drücke an einem der Griffe die Grip-Taste (Mittelfinger-Abzug) und ziehe zu dir hin.
+waste_tuto2=Wähle die PSA aus.
+waste_tuto2_info1=Nimm die PSA, die du für eine sichere Reinigung brauchst. Denke daran: Du brauchst Reinigungshandschuhe, eine Schutzbrille und eine Atemschutzmaske.
+waste_tuto2_info2=Führe dazu deine Hand zum Gegenstand und drücke an einer der beiden Hände die Grip-Taste (Mittelfinger-Abzug).
+waste_tuto2_selec=Ausgewählte Gegenstände:
+waste_tuto4=Finde die nächste Aufgabe.
+waste_tuto4_info1=Benutze das Teleportationswerkzeug, um die nächste Aufgabe zu finden.
+waste_tuto4_info2=Suche das Signal, um mit dem Abfallmanagement fortzufahren.
 
 
 -----------------------------------------------------------------------------------------
 
-
-//SITUATION 5
+//Crane - Blocks
 //Title and description
-finish=****Nanomaterial fijado en una matriz sólida que se perfora
-finish_desc=****En esta escena, el trabajo consiste en preparar un entorno de construcción para perforar la superficie de piedra revestida con el fin de colocar el cableado eléctrico de las luminarias exteriores.  Centrados en la prevención de riesgos derivados de la generación de nanomateriales.
+block=Brückenkranführer - Umgang mit Blöcken
+block_desc=Dieser Abschnitt bietet den Nutzern eine praxisnahe und sichere Lernerfahrung zur Bedienung von Brückenkranen in der Natursteinindustrie. Echtzeit-Feedback hilft ihnen, ihre Fähigkeiten und Kenntnisse als Bediener zu verbessern, und fördert einen effizienteren und sichereren Umgang mit schweren Materialien in diesem Sektor.
 
 //Intro
-finish_intro1=Bienvenido a la SITUACIÓN 5.
-finish_intro2=****Nanomaterial fijado en una matriz sólida que se perfora.
+block_intro1=Willkommen zum Training für Kranführer
+block_intro2=In diesem Training stellen sich die Nutzer Herausforderungen wie dem Be- und Entladen schwerer Materialien, dem präzisen Manövrieren auf engem Raum und dem Stapeln sperriger Lasten mit dem Brückenkran.
+
+//Mission
+block_mis1=Transport von Blöcken
+block_mis1_desc=Ziel dieser Mission ist es, den Block vom Lkw zur Zuführplattform der Blocksäge zu bringen.
+
+//Tutorial
+block_tuto1=Nähere dich mit dem Teleportationswerkzeug dem Lkw.
+block_control=Bedienung des Brückenkrans
+block_tuto2=Benutze die Steuerung des Brückenkrans, um den Haken zu der Platte zu bewegen, die du transportieren möchtest.
+block_tuto2_1=Fahre mit dem Cursor über die Tasten, um zu sehen, welche Funktion jede hat.
+block_control2=Befestige die Platten mit den Anschlagmitteln
+block_tuto3=Drücke zum Anschlagen die Grip-Taste (Mittelfinger-Abzug) am rechten Controller.
+block_tuto3_1=Beachte unbedingt die Sicherheitsregeln zum Anschlagen von Lasten und zum Aufenthalt in Bereichen, in denen Lasten gehoben werden.
+block_tuto_fin=Du hast eine Platte erfolgreich abgesetzt.
+block_repeat=Wiederhole denselben Vorgang für 2 weitere Platten.
 

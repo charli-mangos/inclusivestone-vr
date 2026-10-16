@@ -1,98 +1,221 @@
+// Ελληνική μετάφραση από το en.txt - χρειάζεται έλεγχο από φυσικό ομιλητή
 //MAIN MENU
-lang=Selecciona un lenguaje:
-selected_lang=Lenguaje seleccionado:
-menu_tittle=Menu principal
+lang=Επιλέξτε γλώσσα:
+selected_lang=Επιλεγμένη γλώσσα:
+menu=Κύριο μενού
 
 //Buttons
-continue=Continuar
-start=Empezar
+continue=Συνέχεια
+start=Έναρξη
+check=Έλεγχος
 
 //General
-congrats=¡Enhorabuena!
-completed=Has completado la misión con éxito.
-go_menu=Volver al menú inicial de selección de escenas.
+congrats=Συγχαρητήρια!
+completed=Ολοκληρώσατε την αποστολή με επιτυχία.
+go_menu=Επιστροφή στο αρχικό μενού επιλογής σκηνών.
+controls=Χειριστήρια
+try_again=Δοκιμάστε ξανά.
+fail_mission=Αυτό δεν είναι σωστό.
+completed_quest=Αυτή είναι η σωστή απάντηση.
+follow_steps=Ακολουθήστε τα βήματα που θα εμφανιστούν στους πίνακες.
+restart=Επανεκκίνηση
 
-//Init Info
-intro1=Intenta realizar los pasos con seguridad.
-intro2=Tienes que completar algunas misiones.
-intro3=Para encontrarlas necesitas buscar la siguiente señal:
-intro4=Para moverte por el escenario usa la herramienta de teletransporte. 
-intro5=Esta se activa con el botón principal (A or X).
+//Locomotion tutorial
+locomotion=Τηλεμεταφορά
+locomotion_desc=Πατήστε το κουμπί A ή X για να τηλεμεταφερθείτε στο φωτισμένο σημείο.
 
 ------------------------------------------------------------------------
 
 
 //FORKLIFT
 //Title and description
-fork=****Uso de sierra con refrigeración por agua para reducir el polvo 
-fork_desc=****En esta situación se va a pavimentar una zona de una casa. Para ello, se va a utilizar una sierra refrigerada por agua para reducir el polvo. El jugador debe realizar los pasos necesarios para utilizar esta herramienta con seguridad.
+fork=Χειριστής περονοφόρου
+fork_desc=Σε αυτή την ενότητα οι χρήστες θα μάθουν με πρακτικό και ασφαλή τρόπο πώς να χειρίζονται περονοφόρο ανυψωτικό όχημα στη βιομηχανία λίθου. Με ανατροφοδότηση σε πραγματικό χρόνο, η ενότητα στοχεύει στη βελτίωση των δεξιοτήτων και των γνώσεων των χειριστών, συμβάλλοντας σε πιο αποδοτικό και ασφαλή χειρισμό βαρέων υλικών στον κλάδο του λίθου.
 
 //Intro
-fork_intro1=Bienvenido a la práctica de operario de carretilla.
-fork_intro2=****Uso de sierra con refrigeración por agua para reducir el polvo 
+fork_intro1=Καλώς ήρθατε στην εκπαίδευση χειριστή περονοφόρου.
+fork_intro2=Η εμπειρία περιλαμβάνει προκλήσεις όπως η φόρτωση και εκφόρτωση υλικών λίθου, οι ελιγμοί σε στενούς χώρους και η στοίβαξη βαρέων φορτίων.
 
 //Mission 1
-fork_mis1=Transporte de cargas
-fork_mis1_desc=En esta misón debes llevar cajas desde la zona de acabados al almacen.
-fork_mis1_info1=El objetivo de esta misión es llevar 3 pallets de esta zona al almacen del producto.
-fork_mis1_info2=En el almacen, tendrás que ordenar los pallets dentro de la zona iluminada.
-fork_mis1_fin1=Has conseguido finalizar la misión.
+fork_mis1=Μεταφορά φορτίων
+fork_mis1_info1=Στόχος αυτής της αποστολής είναι να μεταφέρετε 3 παλέτες από τη μονάδα επεξεργασίας στην αποθήκη.
+fork_mis1_info2=Στην αποθήκη, θα πρέπει να τοποθετήσετε τις παλέτες μέσα στη φωτισμένη περιοχή.
 
 //Mission 2
-fork_mis2=Carga de comiones
-fork_mis2_desc=En esta misón debes introducir el producto en los camiones.
+fork_mis2=Φόρτωση φορτηγού
+fork_mis2_info1=Στόχος αυτής της αποστολής είναι να μεταφέρετε 3 παλέτες από την αποθήκη μέσα στο φορτηγό για την περαιτέρω μεταφορά τους.
 
+//Tutorial
+fork_tuto1=Επιτάχυνση
+fork_tuto1_info1=Πατήστε τη σκανδάλη (δείκτης) του δεξιού χεριού για να επιταχύνετε το περονοφόρο.
+fork_tuto1_info2=Θυμηθείτε τους κανόνες ασφαλείας του χώρου εργασίας για να αποφύγετε ατυχήματα.
+fork_tuto2=Όπισθεν
+fork_tuto2_info1=Πατήστε τη σκανδάλη (δείκτης) του αριστερού χεριού για να κινηθείτε με την όπισθεν.
+fork_tuto3=Φρένο
+fork_tuto3_info1=Πατήστε το κύριο κουμπί (A ή X) με τον αντίχειρα για να φρενάρετε το περονοφόρο.
+fork_tuto4=Στροφή
+fork_tuto4_info1=Κινήστε πλάγια το joystick του αριστερού χεριού για να στρίψετε το περονοφόρο.
+fork_tuto4_info2=Επιταχύνετε για να ελέγξετε τη στροφή.
+fork_tuto5=Χειρισμός του περονοφόρου
+fork_tuto5_info1=Φέρτε το χέρι σας σε έναν από τους μοχλούς κάτω δεξιά και πατήστε το κουμπί Grip (μέσος δάκτυλος) για να πιάσετε τον μοχλό.
+fork_tuto5_info2=Ενώ κρατάτε έναν από τους μοχλούς, κινήστε το joystick του αριστερού χεριού πάνω και κάτω για να μετακινήσετε τον ιστό ανύψωσης.
+fork_tuto6_info1=Μετακινήσατε μία παλέτα με επιτυχία.
+fork_tuto6_info2=Επαναλάβετε την ίδια διαδικασία για άλλες 2.
 ------------------------------------------------------------------------------------
 
 
-//SITUATION 2
+//CRANE
 //Title and description
-crane=****Aplicación en función del nanoproducto en una fábrica
-crane_desc=****En esta situación, se aplicarán diferentes productos a la piedra natural en la fábrica. Deben tomarse las medidas correctas para evitar poner en peligro el producto y nuestra salud.
+crane=Χειριστής γερανογέφυρας
+crane_desc=Αυτή η ενότητα προσφέρει στους χρήστες μια πρακτική και ασφαλή εμπειρία μάθησης για τον χειρισμό γερανογέφυρας στη βιομηχανία λίθου. Η ανατροφοδότηση σε πραγματικό χρόνο θα τους επιτρέψει να βελτιώσουν τις δεξιότητες και τις γνώσεις τους ως χειριστές, προωθώντας πιο αποδοτικό και ασφαλή χειρισμό βαρέων υλικών σε αυτόν τον κλάδο.
 
 //Intro
-crane_intro1=Bienvenido a la práctica de operario de grúa.
-crane_intro2=****Aplicación en función del nanoproducto en una fábrica
+crane_intro1=Καλώς ήρθατε στην εκπαίδευση χειριστή γερανού
+crane_intro2=Σε αυτή την εκπαίδευση, οι χρήστες θα αντιμετωπίσουν προκλήσεις όπως η φόρτωση και εκφόρτωση βαρέων υλικών, οι ακριβείς ελιγμοί σε στενούς χώρους και η στοίβαξη ογκωδών φορτίων με τη γερανογέφυρα.
 
+//Mission
+crane_mis1=Μεταφορά πλακών
+crane_mis1_desc=Στόχος αυτής της αποστολής είναι να μετακινήσετε 3 μαρμάρινες πλάκες σε μία από τις φωτισμένες βάσεις στο βάθος της αποθήκης.
+
+crane_block=Κλειδώνει το μηχάνημα
+crane_blocked=Το μηχάνημα κλειδώθηκε
+crane_start=Ενεργοποιεί το μηχάνημα
+crane_up=Ανεβάζει το άγκιστρο
+crane_down=Κατεβάζει το άγκιστρο
+crane_north=Μετακινεί τον κινητήρα μπροστά
+crane_south=Μετακινεί τον κινητήρα πίσω
+crane_east=Μετακινεί τον κινητήρα δεξιά
+crane_west=Μετακινεί τον κινητήρα αριστερά
+
+//Tutorial
+crane_tuto1=Πλησιάστε μία από τις μαρμάρινες πλάκες με το εργαλείο τηλεμεταφοράς.
+crane_control=Χειρισμός της γερανογέφυρας
+crane_tuto2=Χρησιμοποιήστε το χειριστήριο της γερανογέφυρας για να φέρετε το άγκιστρο προς την πλάκα που θα μετακινήσετε.
+crane_tuto2_1=Περάστε τον κέρσορα πάνω από τα κουμπιά για να δείτε τη λειτουργία του καθενός.
+crane_control2=Δέστε τις πλάκες με τους ιμάντες ανύψωσης
+crane_tuto3=Για τη σύνδεση του φορτίου, πατήστε το κουμπί Grip (σκανδάλη μέσου δακτύλου) στο δεξί χειριστήριο.
+crane_tuto3_1=Είναι σημαντικό να τηρείτε τους κανόνες ασφαλείας για τη σύνδεση φορτίων και την κυκλοφορία σε περιοχές όπου γίνονται ανυψώσεις.
+crane_tuto_fin=Τοποθετήσατε μία μαρμάρινη πλάκα με επιτυχία.
+crane_repeat=Επαναλάβετε την ίδια διαδικασία για άλλες 2 πλάκες.
+----------------------------------------------------------------------------------------------
+
+
+//CLEAN
+//Title and description
+clean=Χειριστής καθαρισμού
+clean_desc=Περιλαμβάνει μια σειρά πρακτικών προσομοιώσεων που θα επιτρέψουν στους χρήστες να τελειοποιήσουν τις τεχνικές και τις διαδικασίες τους, εξασφαλίζοντας ένα καθαρότερο και ασφαλέστερο περιβάλλον εργασίας και συμβάλλοντας στη μείωση των περιβαλλοντικών επιπτώσεων του εργοστασίου φυσικού λίθου.
+
+//Intro
+clean_intro1=Καλώς ήρθατε στην εκπαίδευση χειριστή καθαρισμού.
+clean_intro2=Σε αυτή την ενότητα οι χρήστες θα μάθουν βασικές έννοιες, όπως τον εντοπισμό των περιοχών που χρειάζονται καθαρισμό κατά προτεραιότητα και την επιλογή των κατάλληλων προϊόντων και εξοπλισμού καθαρισμού.
+
+//Mission 1 Recogida de residuos
+clean_mis1=Καθαρισμός χώρου εργασίας
+clean_mis1_info1=Στόχος αυτής της εκπαίδευσης είναι η σωστή εκτέλεση των εργασιών καθαρισμού του εργοστασίου.
+
+clean_mis1_desc1=Πλησιάστε κάθε απόβλητο που θα βρείτε στον χώρο εργασίας και αποφασίστε τι θα κάνετε με αυτό.
+clean_mis1_desc2=Θυμηθείτε ότι μπορείτε να χρησιμοποιήσετε το κουμπί Grip (σκανδάλη μέσου δακτύλου) οποιουδήποτε χειριστηρίου για να αφήσετε το καρότσι.
+
+//Quizes
+clean_quiz_fact=Τι πρέπει να κάνετε με αυτόν τον τύπο αποβλήτου;
+clean_quiz_option1=Να ζητήσετε από έναν συνάδελφο να το μαζέψει με ειδικό εξοπλισμό.
+clean_quiz_option2=Επειδή είναι υγρό απόβλητο, να το μαζέψετε με σφουγγαρίστρα.
+clean_quiz_option3=Αν είναι στερεό απόβλητο, να το καθαρίσετε με σκούπα.
+
+clean_mis1_2=Μαζέψτε τα απόβλητα.
+clean_mis1_desc3=Πάρτε τη σκούπα ή τη σφουγγαρίστρα από το καρότσι με τα κουμπιά Grip (σκανδάλη μέσου δακτύλου) και των δύο χεριών.
+clean_mis1_desc4=Και προσπαθήστε να μαζέψετε με αυτά το αντίστοιχο απόβλητο.
+
+//Tutorial
+clean_tuto_loc=Πηγαίνετε στο ντουλάπι καθαρισμού για να πάρετε τα απαραίτητα ΜΑΠ.
+clean_tuto1=Ανοίξτε το ντουλάπι καθαρισμού.
+clean_tuto1_info1=Για να το κάνετε, φέρτε το χέρι σας στο χερούλι, πατήστε το κουμπί Grip (σκανδάλη μέσου δακτύλου) σε ένα από τα χερούλια και τραβήξτε προς το μέρος σας.
+clean_tuto2=Επιλέξτε τα ΜΑΠ.
+clean_tuto2_info1=Πάρτε τα ΜΑΠ που θα χρειαστείτε για να καθαρίσετε με ασφάλεια. Θυμηθείτε ότι θα χρειαστείτε γάντια καθαρισμού, γυαλιά ασφαλείας και μάσκα αναπνοής.
+clean_tuto2_info2=Για να το κάνετε, φέρτε το χέρι σας κοντά στο αντικείμενο και πατήστε το κουμπί Grip (σκανδάλη μέσου δακτύλου) σε οποιοδήποτε χέρι.
+clean_tuto2_selec=Επιλεγμένα αντικείμενα:
+clean_tuto3=Πάρτε μαζί σας το καρότσι καθαρισμού.
+clean_tuto3_info1=Πλησιάστε τις λαβές του καροτσιού και χρησιμοποιήστε το κουμπί Grip για να το πιάσετε και να το πάρετε μαζί σας.
+clean_tuto3_info2=Για να αφήσετε το καρότσι, πατήστε το ίδιο κουμπί Grip.
+clean_tuto4=Πηγαίνετε στον χώρο εργασίας.
+clean_tuto4_info1=Χρησιμοποιήστε το εργαλείο τηλεμεταφοράς για να πάτε στον χώρο εργασίας της μονάδας φυσικού λίθου.
+clean_tuto4_info2=Βρείτε το σήμα για να συνεχίσετε την εργασία καθαρισμού.
 
 
 ----------------------------------------------------------------------------------------------
 
-
-//SITUATION 3
+//WASTE MANAGEMENT
 //Title and description
-clean=****Vertido de polvo de nanomaterial en una matriz líquida para crear una mezcla
-clean_desc=****En esta situación, el usuario tendrá que hacer una mezcla de polvo en una matriz líquida para aplicarla en un entorno de construcción.
+waste=Διαχείριση αποβλήτων
+waste_desc=Η διαχείριση αποβλήτων σε μια μονάδα φυσικού λίθου είναι μια βασική διαδικασία που περιλαμβάνει μια σειρά λεπτομερών πρακτικών προσομοιώσεων. Οι προσομοιώσεις αυτές έχουν σχεδιαστεί για να βοηθήσουν τους χρήστες να βελτιώσουν τις τεχνικές και τις διαδικασίες τους, με αποτέλεσμα μια πιο αποδοτική και αποτελεσματική διαχείριση αποβλήτων. Η σωστή διαχείριση αποβλήτων όχι μόνο εξασφαλίζει ένα καθαρότερο και ασφαλέστερο περιβάλλον εργασίας για όλους τους εργαζόμενους, αλλά παίζει και καθοριστικό ρόλο στη μείωση των περιβαλλοντικών επιπτώσεων του εργοστασίου φυσικού λίθου. Εφαρμόζοντας αποτελεσματικές και βιώσιμες τεχνικές διαχείρισης αποβλήτων, οι χρήστες μπορούν να συμβάλουν σημαντικά στην προστασία του περιβάλλοντος.
+
 
 //Intro
-clean_intro1=Bienvenido a la práctica de operario de limpieza.
-clean_intro2=****Vertido de polvo de nanomaterial en una matriz líquida para crear una mezcla.
+waste_intro1=Καλώς ήρθατε στην εκπαίδευση διαχείρισης αποβλήτων.
+waste_intro2=Σε αυτή την ενότητα οι χρήστες θα μάθουν βασικές έννοιες, όπως την επιλογή των κατάλληλων προϊόντων και εξοπλισμού καθαρισμού, καθώς και οδηγίες για ασφαλή και βιώσιμη διαχείριση αποβλήτων.
 
+//Mission Waste collection
+waste_desc1=Διαχείριση αποβλήτων
+waste_desc2=Στόχος αυτής της εκπαίδευσης είναι η σωστή οργάνωση και απόθεση των αποβλήτων που παράγονται στη μονάδα φυσικού λίθου.
 
+waste_mis1=Τακτοποιήστε τα προϊόντα
+waste_mis1_desc1=Παρατηρήστε το ράφι στα δεξιά και τοποθετήστε τα προϊόντα που βρίσκονται στο πάτωμα στην κατάλληλη θέση.
+waste_mis1_desc2=Για να πιάσετε τα προϊόντα, φέρτε το χέρι σας κοντά στο αντικείμενο και πατήστε το κουμπί Grip (σκανδάλη μέσου δακτύλου) σε οποιοδήποτε χέρι.
+waste_mis1_check=Έλεγχος της τακτοποίησης...
+waste_mis1_wrong=Δεν τακτοποιούνται έτσι τα χημικά προϊόντα, μπορεί να είναι επικίνδυνο.
+waste_mis1_right1=Έτσι γίνεται! Το ράφι φαίνεται τέλειο.
+waste_mis1_right2=Τώρα επιστρέψτε στην αρχική περιοχή για να ολοκληρώσετε την εργασία.
 
-----------------------------------------------------------------------------------------------
+waste_mis2=Διαχείριση αποβλήτων
+waste_mis2_desc1=Πλησιάστε κάθε απόβλητο που θα βρείτε και αποφασίστε τι θα κάνετε με αυτό.
+waste_mis2_desc2=Θα εμφανιστεί ένας πίνακας με ερώτηση· επιλέξτε την απάντηση που θεωρείτε σωστή.
 
+waste_mis2_2=Απορρίψτε τα απόβλητα.
+waste_mis2_desc3=Πιάστε το απόβλητο που πρέπει να απορριφθεί και πηγαίνετέ το στον αντίστοιχο κάδο.
+waste_mis2_desc4=Για να πιάσετε, φέρτε το χέρι σας κοντά στο αντικείμενο και πατήστε το κουμπί Grip (σκανδάλη μέσου δακτύλου) σε οποιοδήποτε χέρι.
+waste_mis2_desc5=Οι κάδοι αποβλήτων βρίσκονται έξω, βγαίνοντας από την πόρτα αριστερά από το ντουλάπι των ΜΑΠ.
 
-//SITUATION 4
-//Title and description
-cnc=****Nanomaterial aplicado con pistola pulverizadora sobre una superficie de piedra natural
-cnc_desc=****Se trata de preparar una zona de trabajo al aire libre donde se aplicarán los nanomateriales a las superficies de piedra con una pistola pulverizadora. La aplicación tendrá lugar en una piscina y las condiciones ambientales no serán óptimas.
+//Quizes
+waste_quiz_fact=Τι πρέπει να κάνετε με αυτόν τον τύπο αποβλήτου;
+waste_quiz_option1=Να ζητήσετε από έναν συνάδελφο να το μαζέψει με ειδικό εξοπλισμό.
+waste_quiz_option2=Να το απορρίψετε στον κατάλληλο κάδο.
 
-//Intro
-cnc_intro1=Bienvenido a la práctica de operario de cnc.
-cnc_intro2=****Prepare una zona de trabajo al aire libre donde se aplicarán los nanomateriales a las superficies de piedra con una pistola pulverizadora.
-
+//Tutorial
+waste_tuto_loc=Πλησιάστε το ντουλάπι καθαρισμού για να πάρετε τα απαραίτητα ΜΑΠ.
+waste_tuto1=Ανοίξτε το ντουλάπι καθαρισμού.
+waste_tuto1_info1=Για να το κάνετε, φέρτε το χέρι σας στο χερούλι, πατήστε το κουμπί Grip (σκανδάλη μέσου δακτύλου) σε ένα από τα χερούλια και τραβήξτε προς το μέρος σας.
+waste_tuto2=Επιλέξτε τα ΜΑΠ.
+waste_tuto2_info1=Πάρτε τα ΜΑΠ που θα χρειαστείτε για να καθαρίσετε με ασφάλεια. Θυμηθείτε ότι θα χρειαστείτε γάντια καθαρισμού, γυαλιά ασφαλείας και μάσκα αναπνοής.
+waste_tuto2_info2=Για να το κάνετε, φέρτε το χέρι σας κοντά στο αντικείμενο και πατήστε το κουμπί Grip (σκανδάλη μέσου δακτύλου) σε οποιοδήποτε χέρι.
+waste_tuto2_selec=Επιλεγμένα αντικείμενα:
+waste_tuto4=Βρείτε την επόμενη εργασία.
+waste_tuto4_info1=Χρησιμοποιήστε το εργαλείο τηλεμεταφοράς για να βρείτε την επόμενη εργασία.
+waste_tuto4_info2=Βρείτε το σήμα για να συνεχίσετε τη διαχείριση αποβλήτων.
 
 
 -----------------------------------------------------------------------------------------
 
-
-//SITUATION 5
+//Crane - Blocks
 //Title and description
-finish=****Nanomaterial fijado en una matriz sólida que se perfora
-finish_desc=****En esta escena, el trabajo consiste en preparar un entorno de construcción para perforar la superficie de piedra revestida con el fin de colocar el cableado eléctrico de las luminarias exteriores.  Centrados en la prevención de riesgos derivados de la generación de nanomateriales.
+block=Χειριστής γερανογέφυρας - Χειρισμός όγκων
+block_desc=Αυτή η ενότητα προσφέρει στους χρήστες μια πρακτική και ασφαλή εμπειρία μάθησης για τον χειρισμό γερανογέφυρας στη βιομηχανία λίθου. Η ανατροφοδότηση σε πραγματικό χρόνο θα τους επιτρέψει να βελτιώσουν τις δεξιότητες και τις γνώσεις τους ως χειριστές, προωθώντας πιο αποδοτικό και ασφαλή χειρισμό βαρέων υλικών σε αυτόν τον κλάδο.
 
 //Intro
-finish_intro1=Bienvenido a la SITUACIÓN 5.
-finish_intro2=****Nanomaterial fijado en una matriz sólida que se perfora.
+block_intro1=Καλώς ήρθατε στην εκπαίδευση χειριστή γερανού
+block_intro2=Σε αυτή την εκπαίδευση, οι χρήστες θα αντιμετωπίσουν προκλήσεις όπως η φόρτωση και εκφόρτωση βαρέων υλικών, οι ακριβείς ελιγμοί σε στενούς χώρους και η στοίβαξη ογκωδών φορτίων με τη γερανογέφυρα.
+
+//Mission
+block_mis1=Μεταφορά όγκων
+block_mis1_desc=Στόχος αυτής της αποστολής είναι να μετακινήσετε τον όγκο από το φορτηγό στην πλατφόρμα τροφοδοσίας του μηχανήματος κοπής όγκων.
+
+//Tutorial
+block_tuto1=Πλησιάστε το φορτηγό με το εργαλείο τηλεμεταφοράς.
+block_control=Χειρισμός της γερανογέφυρας
+block_tuto2=Χρησιμοποιήστε το χειριστήριο της γερανογέφυρας για να φέρετε το άγκιστρο προς την πλάκα που θα μετακινήσετε.
+block_tuto2_1=Περάστε τον κέρσορα πάνω από τα κουμπιά για να δείτε τη λειτουργία του καθενός.
+block_control2=Δέστε τις πλάκες με τους ιμάντες ανύψωσης
+block_tuto3=Για τη σύνδεση του φορτίου, πατήστε το κουμπί Grip (σκανδάλη μέσου δακτύλου) στο δεξί χειριστήριο.
+block_tuto3_1=Είναι σημαντικό να τηρείτε τους κανόνες ασφαλείας για τη σύνδεση φορτίων και την κυκλοφορία σε περιοχές όπου γίνονται ανυψώσεις.
+block_tuto_fin=Τοποθετήσατε μία πλάκα με επιτυχία.
+block_repeat=Επαναλάβετε την ίδια διαδικασία για άλλες 2 πλάκες.
 

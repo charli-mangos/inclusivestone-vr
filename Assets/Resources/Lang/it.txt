@@ -1,98 +1,221 @@
+// Traduzione italiana da en.txt - da rivedere da un madrelingua
 //MAIN MENU
-lang=Selecciona un lenguaje:
-selected_lang=Lenguaje seleccionado:
-menu_tittle=Menu principal
+lang=Seleziona una lingua:
+selected_lang=Lingua selezionata:
+menu=Menu principale
 
 //Buttons
-continue=Continuar
-start=Empezar
+continue=Continua
+start=Inizia
+check=Verifica
 
 //General
-congrats=¡Enhorabuena!
-completed=Has completado la misión con éxito.
-go_menu=Volver al menú inicial de selección de escenas.
+congrats=Congratulazioni!
+completed=Hai completato la missione con successo.
+go_menu=Torna al menu iniziale di selezione delle scene.
+controls=Comandi
+try_again=Riprova.
+fail_mission=Non è corretto.
+completed_quest=È la risposta corretta.
+follow_steps=Segui i passaggi che appariranno sui pannelli.
+restart=Ricomincia
 
-//Init Info
-intro1=Intenta realizar los pasos con seguridad.
-intro2=Tienes que completar algunas misiones.
-intro3=Para encontrarlas necesitas buscar la siguiente señal:
-intro4=Para moverte por el escenario usa la herramienta de teletransporte. 
-intro5=Esta se activa con el botón principal (A or X).
+//Locomotion tutorial
+locomotion=Teletrasporto
+locomotion_desc=Premi il pulsante A o X per teletrasportarti al punto illuminato.
 
 ------------------------------------------------------------------------
 
 
 //FORKLIFT
 //Title and description
-fork=****Uso de sierra con refrigeración por agua para reducir el polvo 
-fork_desc=****En esta situación se va a pavimentar una zona de una casa. Para ello, se va a utilizar una sierra refrigerada por agua para reducir el polvo. El jugador debe realizar los pasos necesarios para utilizar esta herramienta con seguridad.
+fork=Operatore di carrello elevatore
+fork_desc=In questa sezione gli utenti impareranno in modo pratico e sicuro a utilizzare un carrello elevatore nell'industria della pietra. Grazie al feedback in tempo reale, questa sezione mira a migliorare le competenze e le conoscenze degli operatori, contribuendo a una movimentazione più efficiente e sicura dei materiali pesanti nel settore lapideo.
 
 //Intro
-fork_intro1=Bienvenido a la práctica de operario de carretilla.
-fork_intro2=****Uso de sierra con refrigeración por agua para reducir el polvo 
+fork_intro1=Benvenuto all'addestramento per operatori di carrello elevatore.
+fork_intro2=Questa esperienza comprende sfide come il carico e lo scarico di materiali lapidei, le manovre in spazi ristretti e l'impilamento di carichi pesanti.
 
 //Mission 1
-fork_mis1=Transporte de cargas
-fork_mis1_desc=En esta misón debes llevar cajas desde la zona de acabados al almacen.
-fork_mis1_info1=El objetivo de esta misión es llevar 3 pallets de esta zona al almacen del producto.
-fork_mis1_info2=En el almacen, tendrás que ordenar los pallets dentro de la zona iluminada.
-fork_mis1_fin1=Has conseguido finalizar la misión.
+fork_mis1=Trasporto di carichi
+fork_mis1_info1=L'obiettivo di questa missione è portare 3 pallet dall'impianto di lavorazione al magazzino.
+fork_mis1_info2=Nel magazzino dovrai sistemare i pallet all'interno dell'area illuminata.
 
 //Mission 2
-fork_mis2=Carga de comiones
-fork_mis2_desc=En esta misón debes introducir el producto en los camiones.
+fork_mis2=Carico del camion
+fork_mis2_info1=L'obiettivo di questa missione è portare 3 pallet dal magazzino all'interno del camion per il successivo trasporto.
 
+//Tutorial
+fork_tuto1=Accelerare
+fork_tuto1_info1=Premi il grilletto (dito indice) della mano destra per far accelerare il carrello elevatore.
+fork_tuto1_info2=Ricorda le norme di sicurezza dell'ambiente di lavoro per evitare incidenti.
+fork_tuto2=Retromarcia
+fork_tuto2_info1=Premi il grilletto (dito indice) della mano sinistra per fare retromarcia.
+fork_tuto3=Frenare
+fork_tuto3_info1=Premi il pulsante principale (A o X) con il pollice per frenare il carrello elevatore.
+fork_tuto4=Sterzare
+fork_tuto4_info1=Muovi lateralmente il joystick della mano sinistra per sterzare il carrello elevatore.
+fork_tuto4_info2=Accelera per provare la sterzata.
+fork_tuto5=Comando del carrello elevatore
+fork_tuto5_info1=Avvicina la mano a una delle leve in basso a destra e premi il pulsante Grip (dito medio) per afferrare la leva.
+fork_tuto5_info2=Mentre tieni una delle leve, muovi il joystick della mano sinistra su e giù per muovere il montante di sollevamento.
+fork_tuto6_info1=Hai spostato un pallet con successo.
+fork_tuto6_info2=Ripeti lo stesso procedimento per altri 2.
 ------------------------------------------------------------------------------------
 
 
-//SITUATION 2
+//CRANE
 //Title and description
-crane=****Aplicación en función del nanoproducto en una fábrica
-crane_desc=****En esta situación, se aplicarán diferentes productos a la piedra natural en la fábrica. Deben tomarse las medidas correctas para evitar poner en peligro el producto y nuestra salud.
+crane=Operatore di carroponte
+crane_desc=Questa sezione offre agli utenti un'esperienza di apprendimento pratica e sicura sull'uso del carroponte nell'industria della pietra. Il feedback in tempo reale permetterà loro di migliorare le proprie competenze e conoscenze come operatori, favorendo una movimentazione più efficiente e sicura dei materiali pesanti in questo settore specifico.
 
 //Intro
-crane_intro1=Bienvenido a la práctica de operario de grúa.
-crane_intro2=****Aplicación en función del nanoproducto en una fábrica
+crane_intro1=Benvenuto all'addestramento per operatori di gru
+crane_intro2=In questo addestramento gli utenti affronteranno sfide che comprendono il carico e lo scarico di materiali pesanti, manovre di precisione in spazi ristretti e l'impilamento di carichi voluminosi con il carroponte.
 
+//Mission
+crane_mis1=Trasporto di lastre
+crane_mis1_desc=L'obiettivo di questa missione è spostare 3 lastre di marmo su uno dei supporti illuminati in fondo al magazzino.
+
+crane_block=Blocca la macchina
+crane_blocked=Macchina bloccata
+crane_start=Attiva la macchina
+crane_up=Solleva il gancio
+crane_down=Abbassa il gancio
+crane_north=Sposta il motore in avanti
+crane_south=Sposta il motore indietro
+crane_east=Sposta il motore a destra
+crane_west=Sposta il motore a sinistra
+
+//Tutorial
+crane_tuto1=Avvicinati a una delle lastre di marmo usando lo strumento di teletrasporto.
+crane_control=Uso del carroponte
+crane_tuto2=Usa la pulsantiera del carroponte per avvicinare il gancio alla lastra che vuoi spostare.
+crane_tuto2_1=Passa il cursore sopra i pulsanti per vedere la funzione di ciascuno.
+crane_control2=Imbraca le lastre con le brache
+crane_tuto3=Per imbracare, premi il pulsante Grip (grilletto del dito medio) del controller destro.
+crane_tuto3_1=È importante rispettare le norme di sicurezza relative all'imbracatura e alla circolazione nelle aree in cui avviene il sollevamento dei carichi.
+crane_tuto_fin=Hai posizionato con successo una lastra di marmo.
+crane_repeat=Ripeti lo stesso procedimento per altre 2 lastre.
+----------------------------------------------------------------------------------------------
+
+
+//CLEAN
+//Title and description
+clean=Operatore addetto alle pulizie
+clean_desc=Consiste in una serie di simulazioni pratiche che permetteranno agli utenti di perfezionare le proprie tecniche e procedure, garantendo un ambiente di lavoro più pulito e sicuro e contribuendo a ridurre l'impatto ambientale della fabbrica di pietra naturale.
+
+//Intro
+clean_intro1=Benvenuto all'addestramento per addetti alle pulizie.
+clean_intro2=In questa sezione gli utenti impareranno concetti chiave, come individuare le aree prioritarie da pulire e scegliere i prodotti e le attrezzature di pulizia adeguati.
+
+//Mission 1 Recogida de residuos
+clean_mis1=Pulizia dell'area di lavoro
+clean_mis1_info1=L'obiettivo di questo addestramento è svolgere correttamente le attività di pulizia della fabbrica.
+
+clean_mis1_desc1=Avvicinati a ciascuno dei rifiuti presenti nell'area di lavoro e decidi cosa farne.
+clean_mis1_desc2=Ricorda che puoi usare il pulsante Grip (grilletto del dito medio) di uno qualsiasi dei controller per lasciare il carrello.
+
+//Quizes
+clean_quiz_fact=Cosa dovresti fare con questo tipo di rifiuto?
+clean_quiz_option1=Chiedere a un collega di raccoglierlo con attrezzature specifiche.
+clean_quiz_option2=Trattandosi di un rifiuto liquido, raccoglierlo con il mocio.
+clean_quiz_option3=Se è un rifiuto solido, pulire con la scopa.
+
+clean_mis1_2=Raccogli i rifiuti.
+clean_mis1_desc3=Prendi la scopa o il mocio dal carrello usando i pulsanti Grip (grilletto del dito medio) di entrambe le mani.
+clean_mis1_desc4=E prova a raccogliere con essi il rifiuto corrispondente.
+
+//Tutorial
+clean_tuto_loc=Vai all'armadio delle pulizie per prendere i DPI necessari.
+clean_tuto1=Apri l'armadio delle pulizie.
+clean_tuto1_info1=Per farlo, avvicina la mano alla maniglia, usa il pulsante Grip (grilletto del dito medio) su una delle maniglie e tira verso di te.
+clean_tuto2=Seleziona i DPI.
+clean_tuto2_info1=Prendi i DPI che ti serviranno per pulire in sicurezza. Ricorda che ti serviranno i guanti da pulizia, gli occhiali di sicurezza e la mascherina respiratoria.
+clean_tuto2_info2=Per farlo, avvicina la mano all'oggetto e premi il pulsante Grip (grilletto del dito medio) di una delle due mani.
+clean_tuto2_selec=Oggetti selezionati:
+clean_tuto3=Porta con te il carrello delle pulizie.
+clean_tuto3_info1=Avvicinati alle maniglie del carrello e usa il pulsante Grip per afferrarlo e portarlo con te.
+clean_tuto3_info2=Per lasciare il carrello, premi lo stesso pulsante Grip.
+clean_tuto4=Vai all'area di lavoro.
+clean_tuto4_info1=Usa lo strumento di teletrasporto per raggiungere l'area di lavoro dell'impianto di pietra naturale.
+clean_tuto4_info2=Trova il segnale per continuare l'attività di pulizia.
 
 
 ----------------------------------------------------------------------------------------------
 
-
-//SITUATION 3
+//WASTE MANAGEMENT
 //Title and description
-clean=****Vertido de polvo de nanomaterial en una matriz líquida para crear una mezcla
-clean_desc=****En esta situación, el usuario tendrá que hacer una mezcla de polvo en una matriz líquida para aplicarla en un entorno de construcción.
+waste=Gestione dei rifiuti
+waste_desc=La gestione dei rifiuti in un impianto di pietra naturale è un processo chiave che comprende una serie di simulazioni pratiche dettagliate. Queste simulazioni sono pensate per aiutare gli utenti a perfezionare le proprie tecniche e procedure, ottenendo una gestione dei rifiuti più efficiente ed efficace. Una corretta gestione dei rifiuti non solo garantisce un ambiente di lavoro più pulito e sicuro per tutti i dipendenti, ma svolge anche un ruolo fondamentale nella riduzione dell'impatto ambientale della fabbrica di pietra naturale. Applicando tecniche di gestione dei rifiuti efficaci e sostenibili, gli utenti possono contribuire in modo significativo alla tutela dell'ambiente.
+
 
 //Intro
-clean_intro1=Bienvenido a la práctica de operario de limpieza.
-clean_intro2=****Vertido de polvo de nanomaterial en una matriz líquida para crear una mezcla.
+waste_intro1=Benvenuto all'addestramento sulla gestione dei rifiuti.
+waste_intro2=In questa sezione gli utenti impareranno concetti chiave, come la scelta dei prodotti e delle attrezzature di pulizia adeguati, oltre alle linee guida per una gestione dei rifiuti sicura e sostenibile.
 
+//Mission Waste collection
+waste_desc1=Gestione dei rifiuti
+waste_desc2=L'obiettivo di questo addestramento è organizzare e depositare correttamente i rifiuti prodotti nell'impianto di pietra naturale.
 
+waste_mis1=Riordina i prodotti
+waste_mis1_desc1=Osserva lo scaffale a destra e sistema i prodotti che sono a terra nella zona corrispondente.
+waste_mis1_desc2=Per afferrare i prodotti, avvicina la mano all'oggetto e premi il pulsante Grip (grilletto del dito medio) di una delle due mani.
+waste_mis1_check=Verifica dell'ordine in corso...
+waste_mis1_wrong=Non è questo il modo di riordinare i prodotti chimici, potrebbe essere pericoloso.
+waste_mis1_right1=Ecco come si fa! Lo scaffale ora è perfetto.
+waste_mis1_right2=Ora torna all'area di partenza per terminare l'attività.
 
-----------------------------------------------------------------------------------------------
+waste_mis2=Gestione dei rifiuti
+waste_mis2_desc1=Avvicinati a ciascuno dei rifiuti che trovi e decidi cosa farne.
+waste_mis2_desc2=Apparirà un pannello con una domanda: scegli l'opzione che ritieni corretta.
 
+waste_mis2_2=Deposita i rifiuti.
+waste_mis2_desc3=Afferra il rifiuto da smaltire e portalo al contenitore corrispondente.
+waste_mis2_desc4=Per afferrare, avvicina la mano all'oggetto e premi il pulsante Grip (grilletto del dito medio) di una delle due mani.
+waste_mis2_desc5=I contenitori dei rifiuti si trovano all'esterno, uscendo dalla porta a sinistra dell'armadio dei DPI.
 
-//SITUATION 4
-//Title and description
-cnc=****Nanomaterial aplicado con pistola pulverizadora sobre una superficie de piedra natural
-cnc_desc=****Se trata de preparar una zona de trabajo al aire libre donde se aplicarán los nanomateriales a las superficies de piedra con una pistola pulverizadora. La aplicación tendrá lugar en una piscina y las condiciones ambientales no serán óptimas.
+//Quizes
+waste_quiz_fact=Cosa dovresti fare con questo tipo di rifiuto?
+waste_quiz_option1=Chiedere a un collega di raccoglierlo con attrezzature specifiche.
+waste_quiz_option2=Gettarlo nel contenitore appropriato.
 
-//Intro
-cnc_intro1=Bienvenido a la práctica de operario de cnc.
-cnc_intro2=****Prepare una zona de trabajo al aire libre donde se aplicarán los nanomateriales a las superficies de piedra con una pistola pulverizadora.
-
+//Tutorial
+waste_tuto_loc=Avvicinati all'armadio delle pulizie per prendere i DPI necessari.
+waste_tuto1=Apri l'armadio delle pulizie.
+waste_tuto1_info1=Per farlo, avvicina la mano alla maniglia, usa il pulsante Grip (grilletto del dito medio) su una delle maniglie e tira verso di te.
+waste_tuto2=Seleziona i DPI.
+waste_tuto2_info1=Prendi i DPI che ti serviranno per pulire in sicurezza. Ricorda che ti serviranno i guanti da pulizia, gli occhiali di sicurezza e la mascherina respiratoria.
+waste_tuto2_info2=Per farlo, avvicina la mano all'oggetto e premi il pulsante Grip (grilletto del dito medio) di una delle due mani.
+waste_tuto2_selec=Oggetti selezionati:
+waste_tuto4=Trova l'attività successiva.
+waste_tuto4_info1=Usa lo strumento di teletrasporto per trovare l'attività successiva.
+waste_tuto4_info2=Trova il segnale per continuare l'attività di gestione dei rifiuti.
 
 
 -----------------------------------------------------------------------------------------
 
-
-//SITUATION 5
+//Crane - Blocks
 //Title and description
-finish=****Nanomaterial fijado en una matriz sólida que se perfora
-finish_desc=****En esta escena, el trabajo consiste en preparar un entorno de construcción para perforar la superficie de piedra revestida con el fin de colocar el cableado eléctrico de las luminarias exteriores.  Centrados en la prevención de riesgos derivados de la generación de nanomateriales.
+block=Operatore di carroponte - Movimentazione di blocchi
+block_desc=Questa sezione offre agli utenti un'esperienza di apprendimento pratica e sicura sull'uso del carroponte nell'industria della pietra. Il feedback in tempo reale permetterà loro di migliorare le proprie competenze e conoscenze come operatori, favorendo una movimentazione più efficiente e sicura dei materiali pesanti in questo settore specifico.
 
 //Intro
-finish_intro1=Bienvenido a la SITUACIÓN 5.
-finish_intro2=****Nanomaterial fijado en una matriz sólida que se perfora.
+block_intro1=Benvenuto all'addestramento per operatori di gru
+block_intro2=In questo addestramento gli utenti affronteranno sfide che comprendono il carico e lo scarico di materiali pesanti, manovre di precisione in spazi ristretti e l'impilamento di carichi voluminosi con il carroponte.
+
+//Mission
+block_mis1=Trasporto di blocchi
+block_mis1_desc=L'obiettivo di questa missione è spostare il blocco dal camion alla piattaforma di carico della tagliablocchi.
+
+//Tutorial
+block_tuto1=Avvicinati al camion usando lo strumento di teletrasporto.
+block_control=Uso del carroponte
+block_tuto2=Usa la pulsantiera del carroponte per avvicinare il gancio alla lastra che vuoi spostare.
+block_tuto2_1=Passa il cursore sopra i pulsanti per vedere la funzione di ciascuno.
+block_control2=Imbraca le lastre con le brache
+block_tuto3=Per imbracare, premi il pulsante Grip (grilletto del dito medio) del controller destro.
+block_tuto3_1=È importante rispettare le norme di sicurezza relative all'imbracatura e alla circolazione nelle aree in cui avviene il sollevamento dei carichi.
+block_tuto_fin=Hai posizionato con successo una lastra.
+block_repeat=Ripeti lo stesso procedimento per altre 2 lastre.
 
