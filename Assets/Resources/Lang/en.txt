@@ -106,7 +106,7 @@ clean_desc=Consists of a series of practical simulations that will allow users t
 
 //Intro
 clean_intro1=Welcome to the cleaning operator practice.
-clean_intro2=n this section users will learn key concepts, such as identifying priority areas for cleaning, as well as selecting appropriate cleaning products and equipment.
+clean_intro2=In this section users will learn key concepts, such as identifying priority areas for cleaning, as well as selecting appropriate cleaning products and equipment.
 
 //Mission 1 Recogida de residuos
 clean_mis1=Workspace cleaning
@@ -117,7 +117,7 @@ clean_mis1_desc2=Remember that you can use the Grip button (middle finger trigge
 
 //Quizes
 clean_quiz_fact=What should you do with this type of waste?
-clean_quiz_option1=Avise a colleague to pick it up with specialized equipment. 
+clean_quiz_option1=Ask a colleague to pick it up with specialized equipment. 
 clean_quiz_option2=As it is liquid waste, pick it up with a mop.
 clean_quiz_option3=Clean up with broom if solid waste.
 
@@ -129,7 +129,7 @@ clean_mis1_desc4=And try to pick up the corresponding waste with them.
 clean_tuto_loc=Go to the cleaning cabinet to collect the necessary PPE.
 clean_tuto1=Open the cleaning cabinet. 
 clean_tuto1_info1=To do this, reach your hand to the doorknob, use the Grip button (middle finger trigger) on any of the knobs and pull towards you. 
-clean_tuto2=Select the PIDs. 
+clean_tuto2=Select the PPE. 
 clean_tuto2_info1=Grab the PPE you will need to perform the cleaning in a safe manner. Remember that you will need the cleaning gloves, safety glasses and respiratory mask. 
 clean_tuto2_info2=To do this, bring your hand close to the object and press the Grip button (middle finger trigger) of either hand.  
 clean_tuto2_selec=Selected objects:
@@ -176,45 +176,45 @@ waste_mis2_desc5=The waste containers can be found outside, when exiting through
 
 //Quizes
 waste_quiz_fact=What should you do with this type of waste?
-waste_quiz_option1=Avise a colleague to pick it up with specialized equipment. 
+waste_quiz_option1=Ask a colleague to pick it up with specialized equipment. 
 waste_quiz_option2=Dump it in the appropriate container. 
 
 //Tutorial
 waste_tuto_loc=Approach the cleanup closet to collect the necessary PPE.
 waste_tuto1=Open the cleaning cabinet. 
 waste_tuto1_info1=To do this, reach your hand to the doorknob, use the Grip button (middle finger trigger) on any of the knobs and pull towards you. 
-waste_tuto2=Select the PIDs. 
+waste_tuto2=Select the PPE. 
 waste_tuto2_info1=Grab the PPE you will need to perform the cleaning safely. Remember that you will need the cleaning gloves, safety glasses and respiratory mask. 
 waste_tuto2_info2=To do this, bring your hand close to the object and press the Grip button (middle finger trigger) on either hand.  
 waste_tuto2_selec=Selected objects:
-waste_tuto4=Finds the next task.
+waste_tuto4=Find the next task.
 waste_tuto4_info1=Use the teleport tool to find the next task. 
-waste_tuto4_info2=Finds the signal to continue the waste management task. 
+waste_tuto4_info2=Find the signal to continue the waste management task. 
 
 
 -----------------------------------------------------------------------------------------
 
 //Crane - Blocks
 //Title and description
-block=Operario de puente grúa - Manejo de bloques
-block_desc=Esta sección ofrece a los usuarios una experiencia de aprendizaje práctica y segura sobre la operación del puente grúa en la industria de la piedra. La retroalimentación en tiempo real les permitirá mejorar sus habilidades y conocimientos como operadores, promoviendo un manejo más eficiente y seguro de materiales pesados en este sector específico.
+block=Overhead crane operator - Block handling
+block_desc=This section provides users with a practical and safe learning experience on the operation of overhead cranes in the stone industry. Real-time feedback will enable them to improve their skills and knowledge as operators, promoting more efficient and safer handling of heavy materials in this specific sector.
 
 //Intro
-block_intro1=Bienvenido a la práctica de operario de grúa
-block_intro2=En este entrenamiento, los usuarios enfrentarán desafíos que implican cargar y descargar materiales pesados, maniobrar con precisión en espacios reducidos y apilar cargas voluminosas utilizando el puente grúa.
+block_intro1=Welcome to the crane operator training
+block_intro2=In this training, users will face challenges that involve loading and unloading heavy materials, maneuvering with precision in tight spaces, and stacking bulky loads using the overhead crane.
 
 //Mission
-block_mis1=Transporte de bloques
-block_mis1_desc=El objetivo de esta misión es desplazar el bloque del camión hasta la plataforma de entrada a la máquina cortabloques.
+block_mis1=Transporting blocks
+block_mis1_desc=The objective of this mission is to move the block from the truck to the infeed platform of the block-cutting machine.
 
 //Tutorial
-block_tuto1=Acércate al camión mediante la herramienta de teletransporte. 
-block_control=Manejo del puente grúa
-block_tuto2=Utiliza el mando del puente grúa para acercar el gancho hacia la tabla que vayas a desplazar. 
-block_tuto2_1=Pasa por encima de los botones con el cursor para ver que funcion tiene cada uno.
-block_control2=Amarra los tablones con las eslingas
-block_tuto3=Para realizar el eslingado pulsa el botón de Grip (gatillo del dedo corazón) del mando derecho. 
-block_tuto3_1=Es importante tener en cuenta las normas de seguridad con respecto al eslingado y la circulación en zonas donde ocurren elevaciones de cargas. 
-block_tuto_fin=Has conseguido colocar una tabla. 
-block_repeat=Repite el mismo proceso para 2 tablas más.
+block_tuto1=Get close to the truck using the teleport tool. 
+block_control=Operating the overhead crane
+block_tuto2=Use the overhead crane control to move the hook towards the slab you are going to move. 
+block_tuto2_1=Hover over the buttons with the cursor to see what each one does.
+block_control2=Tie the slabs with the slings
+block_tuto3=To sling, press the Grip button (middle finger trigger) on the right controller. 
+block_tuto3_1=It is important to consider the safety rules regarding slinging and movement in areas where loads are lifted. 
+block_tuto_fin=You have successfully placed a slab. 
+block_repeat=Repeat the same process for 2 more slabs.
 
