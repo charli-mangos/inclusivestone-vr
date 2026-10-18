@@ -10,8 +10,8 @@ It was developed between October 2023 and January 2024 as part of an
 **Erasmus+ Cooperation Partnership in Vocational Education and Training
 (KA220-VET)**, project number `2021-1-DE02-KA220-VET-000033276`.
 
-<!-- TODO(Charli): confirm with CTM how to name the organisation and the
-consortium partners here, and add screenshots or a demo video. -->
+It was built at CTM (Centro Tecnológico del Mármol, Piedra y Materiales,
+Spain) and is published with CTM's permission.
 
 > **Note:** this public version does **not** include third-party
 > models, textures and SDK assets whose licences do not allow
@@ -100,22 +100,21 @@ the repository and under which licence.
 
 ## My role
 
-<!-- TODO(Charli): describe your role -->
+I was the lead developer of InclusiveSTONE at CTM. I wrote all of the
+application code (C#): the VR player rig and interactions, the machinery
+simulations (forklift, crane, CNC), the cleaning and waste-management
+modules, mission and scoring logic, the menus and the localisation
+system, and I integrated the 3D environments into the training scenes.
 
 ## Credits
 
 - Development: Charli (Carlos Martínez), [@charli-mangos](https://github.com/charli-mangos)
-- 3D environment models: edmarga
-  <!-- TODO(Charli): pending consent from edmarga to be credited and to
-  publish their models; confirm the name and link they prefer. -->
+- 3D environment models: Eduardo Martínez García ([@edmarga](https://github.com/edmarga))
 - Developed within the Erasmus+ KA220-VET project
-  `2021-1-DE02-KA220-VET-000033276`.
-  <!-- TODO(Charli): partner list pending approval from CTM. -->
+  `2021-1-DE02-KA220-VET-000033276`. The partner organisations'
+  logos are shown in the application's main menu.
 
 ## EU funding notice
-
-<!-- TODO(Charli): pending CTM approval of the wording and of the use of
-the EU emblem. -->
 
 Funded by the European Union. Views and opinions expressed are however
 those of the author(s) only and do not necessarily reflect those of the

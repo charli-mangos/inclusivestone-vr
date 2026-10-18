@@ -10,7 +10,7 @@ listed below. Each keeps its own licence. Entries marked
 |---|---|---|
 | Kawase blur render feature for URP | `Assets/Assets/FX/KawaseBlur/` | **To be verified.** Probably adapted from [sebastianhein/urp_kawase_blur](https://github.com/sebastianhein/urp_kawase_blur) (MIT). If so, its copyright notice must be kept here. |
 | Fabric036 texture (ambientCG) | `Assets/Assets/Prefabs/Warehouse/Prefabs/Habitacion Aires/Texturas Air Room/Fabric036_2K_Color.png` | [CC0 1.0](https://docs.ambientcg.com/license/) |
-| Partner and programme logos (CTM, DNV, FAMDIF, KSK, IED, Erasmus+, Creative Commons) | `Assets/Assets/Images/Logos/` | Trademarks of their owners, used with the project. **Pending permission** before public use. The EU emblem has its own [usage rules](https://commission.europa.eu/resources-partners/european-union-emblem_en). |
+| Partner and programme logos (CTM, DNV, FAMDIF, KSK, IED, Erasmus+, Creative Commons) | `Assets/Assets/Images/Logos/` | Trademarks of their owners, used with permission. The EU emblem has its own [usage rules](https://commission.europa.eu/resources-partners/european-union-emblem_en). |
 | Models, textures, materials and audio of unconfirmed origin (`Prefabs/Warehouse`, `Crane`, `Forklift`, `Truck`, `Assets Edu`, `Objects/Residuos Piedras`, `Objects/Container/Dumpster Hydraulic.fbx`, `Materials/Marble`, `Images/CleaningProd`, `AudioFiles`) | `Assets/Assets/` | **To be verified.** Some were made by the project team. Others may come from third-party sources and must be removed if they cannot be redistributed. |
 
 ## Unity packages (resolved from the Unity registry, not included)
