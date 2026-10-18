@@ -24,34 +24,17 @@ public class CollectionManager : MonoBehaviour
 
     void Update()
     {
-        
-        if (uncompleted.Count == 0 && finished == true)
+        if (uncompleted.Count == 0 && finished)
         {
-            Debug.Log("Se limpio");
             gameController.finishMission();
             this.enabled = false;
         }
     }
 
-    // Update is called once per frame
+    // Drops the collectors that are already completed and records whether any remain.
     public void checkIfCompleted()
     {
-
-        if (uncompleted.Count > 0)
-        {
-            foreach (var col in uncompleted)
-            {
-                if (!col.isCompleted)
-                {
-                    finished = false;
-                }
-                else
-                {
-                    Debug.Log("Completatis");
-                    uncompleted.Remove(col);
-                }
-
-            }
-        }
+        uncompleted.RemoveAll(col => col.isCompleted);
+        finished = uncompleted.Count == 0;
     }
 }
