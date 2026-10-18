@@ -31,13 +31,7 @@ public class GameController : MonoBehaviour
         {
             uncompleted = missions.ToList<Mission>();
 
-            foreach (var mis in uncompleted)
-            {
-                if (mis.isCompleted)
-                {
-                    uncompleted.Remove(mis);
-                }
-            }
+            uncompleted.RemoveAll(mis => mis.isCompleted);
         }
 
         mistakes = 0;
