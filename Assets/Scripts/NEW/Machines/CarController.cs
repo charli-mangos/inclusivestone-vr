@@ -4,14 +4,12 @@ using UnityEngine;
 
 public class CarController: MonoBehaviour
 {
-    //private DriveController inputDrive;
     [SerializeField]
     private List<WheelCollider> wheels;
     [SerializeField]
     private List<GameObject> wheelsSteer;
 
     //[SerializeField]
-    ///private TwoHandGrab steeringWheel;
 
     [SerializeField]
     private float strength = 200000f;
@@ -63,11 +61,9 @@ public class CarController: MonoBehaviour
 
                 collider.steerAngle = currentSteerAngle;
                 collider.wheelDampingRate = dampening;
-                //UpdateWheelVisual(collider, trans);
             }
         }
         
-
     }
 
     void GetValues()
@@ -91,7 +87,6 @@ public class CarController: MonoBehaviour
                 if (!hand.primaryButton && hand.trigVal > 0.1)
                 {
                     isBreaking = false;
-
 
                     //Right Hand
                     if (hand.isRight == "right")
@@ -128,9 +123,6 @@ public class CarController: MonoBehaviour
                 }
 
                 //Steering
-                //horizontalVal = steeringWheel.rotEvent.y;
-                //Debug.Log(horizontalVal);
-
 
                 currentSteerAngle = maxSteering * horizontalVal;
             }
@@ -162,11 +154,9 @@ public class CarController: MonoBehaviour
         }
     }
 
-
     void StopBounce()
     {
         isBouncing = false;
     }
-
 
 }

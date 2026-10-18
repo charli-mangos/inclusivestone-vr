@@ -7,8 +7,6 @@ public class TwoHandGrab : XRGrabInteractable
 {
     public List<XRSimpleInteractable> secondGrab = new List<XRSimpleInteractable>();
 
-    //public Transform[] snapPos;
-
     private XRBaseInteractor secondInteractor;
 
     private Quaternion initRotation;
@@ -52,7 +50,6 @@ public class TwoHandGrab : XRGrabInteractable
             selectingInteractor.attachTransform.rotation = rotEvent;
         }
 
-
         base.ProcessInteractable(updatePhase);
     }
 
@@ -71,7 +68,6 @@ public class TwoHandGrab : XRGrabInteractable
 
         return targetRot;
     }
-
 
     public void OnSecondHandGrab(XRBaseInteractor interactor)
     {

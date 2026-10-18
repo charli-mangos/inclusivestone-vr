@@ -66,7 +66,6 @@ public class SelectObject : MonoBehaviour
 
         foreach (Selectable element in totalSelectables)
         {
-            //SetSelectableState(element, true, "Selectable");
             SetSelectableState(element, notSelectedColor, true);
 
             if (element.isNeeded)
@@ -116,7 +115,6 @@ public class SelectObject : MonoBehaviour
             }
         }
     }
-
 
     public void checkSelection()
     {

@@ -7,20 +7,16 @@ public class UIRayController : MonoBehaviour
 {
     public XRController leftRay;
     public XRController rightRay;
-    //public InputHelpers.Button teleportActivation;
-    //public float activationThreshold = 0.1f;
     public XRRayInteractor leftInteractor;
     public XRRayInteractor rightInteractor;
 
     public bool isMachine = false;
-    //private GameObject[] moveArea;
 
     public bool EnableRightRay { get; set; } = true;
     public bool EnableLeftRay { get; set; } = true;
 
     private void Update()
     {
-        //isMachineUse();
 
         if (leftRay)
         {

@@ -12,19 +12,16 @@ public class Highlight : XRSimpleInteractable
     private string actual = "None";
 
     //Hand inputs
-    //private GameObject[] inputs;
 
     //Layer
     public string m_Layer = "Highlight";
     public string m_LayerSelect = "Selectable";
-
 
     // Start is called before the first frame update
     void Start()
     {
         PlayerPrefs.SetString("actual_HighLight", "None");
 
-        //inputs = GameObject.FindGameObjectsWithTag("GameController");
     }
 
     // Update is called once per frame
@@ -35,9 +32,6 @@ public class Highlight : XRSimpleInteractable
         if (isHover && actual == this.gameObject.name)
         {
             //if (LayerMask.NameToLayer(m_Layer) == LayerMask.NameToLayer("FarHighlight"))
-            //{
-            //    this.gameObject.GetComponent<ChangeMaterial>().ReverseMaterial();
-            //}
 
             this.gameObject.layer = LayerMask.NameToLayer(m_Layer);
 

@@ -11,9 +11,6 @@ public class Mission : MonoBehaviour
     //Turns true if mission is completed
     public bool isCompleted = false;
 
-    //Turns true when mission begin
-    //private bool isStarted = false;
-
     //Y value of signal
     public float highVal;
 
@@ -60,11 +57,9 @@ public class Mission : MonoBehaviour
     //Is called when mission started
     public void initMission()
     {
-        //isStarted = true;
         if(missionCanvas != null)
         {
             missionCanvas.SetActive(true);
-            //canvas.GetComponent<Instructions>().setNextInstructions();
         }
 
         //Instantiate warning signal
@@ -98,8 +93,6 @@ public class Mission : MonoBehaviour
 
     IEnumerator FinalizeMission()
     {
-        Debug.Log("Fin " + this.tittle);
-
         if(missionCanvas != null)
         {
             missionCanvas.SetActive(false);
@@ -131,8 +124,6 @@ public class Mission : MonoBehaviour
         {
             finMissionPanel.SetActive(true);
 
-            Debug.Log("Tenemos panel");
-
             //Se destruye el botón de la mission completada
             if (FindDescendantByNameRecursive(finMissionPanel.transform, tittle))
             {
@@ -140,22 +131,18 @@ public class Mission : MonoBehaviour
             }
         }
 
-
         if(slider != null)
         {
             //Activate slider
             slider.initSlider();
 
-            //slider.removeSlide(slider.getSlideByName(tittle));
             slider.setSlideByName(nextMissionTittle);
         }
         
-
         //Activate Ray interactors
         leftRayCotroller.SetActive(true);
         rightRayCotroller.SetActive(true);
 
-        //goalzone.SetActive(false);
         this.enabled = false;
     }
 

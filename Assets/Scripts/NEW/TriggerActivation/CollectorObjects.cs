@@ -36,8 +36,6 @@ public class CollectorObjects : MonoBehaviour
             // Elimina el objeto de la lista 
             uncollected.Remove(other.gameObject);
 
-            Debug.Log("Object collected");
-
             // Verifica si todos los objetos han sido recogidos  
             if (uncollected.Count == 0)
             {

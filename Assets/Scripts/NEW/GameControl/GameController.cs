@@ -71,7 +71,6 @@ public class GameController : MonoBehaviour
     {
         mistakes += 1;
 
-        //Debug.Log(mistakes);
     }
 
     public Mission getCurrentMission()
@@ -85,7 +84,6 @@ public class GameController : MonoBehaviour
 
         currentMission.gameObject.SetActive(true);
 
-        //currentMission.initMission();
     }
 
     public void setMissionByName(string name)
@@ -95,7 +93,6 @@ public class GameController : MonoBehaviour
 
         currentMission.gameObject.SetActive(true);
 
-        //currentMission.initMission();
     }
 
     public void finishMission()
