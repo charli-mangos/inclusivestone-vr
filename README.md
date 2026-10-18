@@ -45,14 +45,14 @@ AI-assisted translations that a native speaker still needs to review.
 ```
 Assets/
 ├─ Scenes/                 Main Menu, Forklift, Crane, Clean, Waste Management, CNC
-├─ Scripts/NEW/
+├─ Scripts/
 │  ├─ GameControl/         mission flow, goal zones, sweeping
 │  ├─ Machines/            crane (hook, slings, weights, obstacles), forklift, magnet
 │  ├─ PlayerControl/       hands, two-hand grab, locomotion, UI ray
 │  ├─ Canvas/              instructions, slides, multiple-choice quizzes
 │  ├─ Translator/          key=value localisation loader
-│  └─ TriggerActivation/   quiz and collection triggers
-├─ Scripts/OLD/            legacy scripts still referenced by some scenes
+│  ├─ TriggerActivation/   quiz and collection triggers
+│  └─ Select/, Challenge/, Animations/   object selection, sorting checks, progress UI
 ├─ Resources/Lang/         localisation files
 └─ Assets/                 models, materials, prefabs, images, audio
 ```
